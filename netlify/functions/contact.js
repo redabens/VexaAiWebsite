@@ -178,7 +178,8 @@ ${meetingPurpose}
             <p><strong>Date souhaitée:</strong> ${formattedDate}</p>
             <p><strong>Heure proposée:</strong> 10h00 - 11h00</p>
             <p><strong>Entreprise:</strong> ${companyName}</p>
-            <p><strong>Sujet:</strong> ${meetingPurpose.substring(0, 100)}${meetingPurpose.length > 100 ? '...' : ''}</p>
+            <p><strong>Sujet:</strong></p>
+            <p style="white-space: pre-wrap;">${meetingPurpose}</p>
           </div>
           
           <div style="background: #e3f2fd; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: center;">
