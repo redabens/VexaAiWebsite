@@ -1,0 +1,118 @@
+.folding-cards {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(180deg, #0a0a0a 0%, #1a1a2e 100%);
+}
+
+.folding-cards-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.folding-cards-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+
+.card.active::before,
+.card:hover::before {
+  opacity: 0.1;
+}
+
+.card-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(102, 126, 234, 0.5);
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+}
+
+@media (max-width: 768px) {
+  .folding-cards {
+    padding: 3rem 1rem;
+  }
+
+  .folding-cards-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .card {
+    padding: 2rem 1.5rem;
+  }
+
+  .card-icon {
+    font-size: 3rem;
+  }
+}

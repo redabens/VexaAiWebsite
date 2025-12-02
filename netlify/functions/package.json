@@ -1,0 +1,9 @@
+{
+  "name": "netlify-functions",
+  "version": "1.0.0",
+  "description": "Netlify functions for Vexaai contact form",
+  "dependencies": {
+    "nodemailer": "^6.9.9",
+    "googleapis": "^131.0.0"
+  }
+}

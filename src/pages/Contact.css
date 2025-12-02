@@ -1,0 +1,321 @@
+.contact-page {
+  min-height: 100vh;
+  padding: 120px 40px 60px;
+  background: #ffffff;
+  font-family: 'Unbounded', sans-serif;
+}
+
+.contact-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: start;
+}
+
+/* Left Column - Meeting Info */
+.meeting-info {
+  padding-right: 40px;
+}
+
+.meeting-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #FF5722;
+  line-height: 1.2;
+}
+
+.meeting-description {
+  font-size: 1rem;
+  color: #333333;
+  line-height: 1.8;
+  margin-bottom: 60px;
+  font-weight: 400;
+}
+
+.meeting-about {
+  margin-top: 60px;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #FF5722;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.about-subtitle {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 12px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.about-description {
+  font-size: 1rem;
+  color: #333333;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.call-duration {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.meeting-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.meeting-points li {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  color: #333333;
+  line-height: 1.7;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.meeting-points li .point-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.meeting-points li strong {
+  color: #000000;
+  font-weight: 400;
+}
+
+/* Right Column - Form Section */
+.form-section {
+  background: transparent;
+  padding: 0;
+}
+
+.form-header {
+  margin-bottom: 35px;
+}
+
+.form-header h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.7;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 16px 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  color: #000000;
+  font-size: 1rem;
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #FF5722;
+  box-shadow: 0 0 0 3px rgba(255, 87, 34, 0.1);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #999999;
+  font-weight: 400;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-divider {
+  margin: 30px 0 25px;
+  padding: 0;
+}
+
+.form-divider p {
+  font-size: 1rem;
+  color: #000000;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 18px 32px;
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Unbounded', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.submit-btn:hover {
+  background: #1a1a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 1024px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  
+  .meeting-info {
+    padding-right: 0;
+  }
+  
+  .meeting-title {
+    font-size: 2.2rem;
+  }
+  
+  .about-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 100px 25px 40px;
+  }
+  
+  .meeting-title {
+    font-size: 2rem;
+  }
+  
+  .about-title {
+    font-size: 1.6rem;
+  }
+  
+  .meeting-points li {
+    font-size: 0.95rem;
+  }
+  
+  .contact-content {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-page {
+    padding: 100px 20px 40px;
+  }
+  
+  .meeting-title {
+    font-size: 1.8rem;
+  }
+  
+  .about-title {
+    font-size: 1.4rem;
+  }
+  
+  .meeting-description,
+  .about-description,
+  .call-duration,
+  .form-header h3,
+  .form-divider p {
+    font-size: 0.95rem;
+  }
+  
+  .meeting-points li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Submit button states */
+.submit-btn.submitting {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.submit-btn:disabled {
+  pointer-events: none;
+}
+
+/* Submit messages */
+.submit-message {
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-family: 'Unbounded', sans-serif;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.submit-message.success {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.submit-message.error {
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* Form validation errors */
+.form-group.has-error input,
+.form-group.has-error textarea {
+  border-color: #dc3545;
+  background-color: #fff8f8;
+}
+
+.form-group.has-error input:focus,
+.form-group.has-error textarea:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.15);
+}
+
+.error-message {
+  display: block;
+  color: #dc3545;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  font-family: 'Unbounded', sans-serif;
+}
+
+body.rtl .error-message {
+  text-align: right;
+}

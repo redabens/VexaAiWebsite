@@ -1,0 +1,23 @@
+# Ensure SVG files are served with correct MIME type
+<IfModule mod_mime.c>
+  AddType image/svg+xml .svg
+  AddType image/svg+xml .svgz
+</IfModule>
+
+# Enable compression for SVG files
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# Set proper caching headers for SVG files
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/svg+xml "access plus 1 month"
+</IfModule>
+
+# Allow access to SVG files
+<FilesMatch "\.(svg|svgz)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>

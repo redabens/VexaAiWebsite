@@ -1,0 +1,253 @@
+{
+  "nav": {
+    "home": "home",
+    "about": "About us",
+    "services": "Services",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "AI That Transforms",
+    "titleLine2": "Your Business",
+    "subtitle": "From intelligent assistants to workflow",
+    "subtitleLine2": "automation, we help you scale smarter.",
+    "getStarted": "GET STARTED",
+    "areas": "Areas",
+    "tagline1": "Reimagine what's possible.",
+    "tagline2": "Redefine how you work.",
+    "tagline3": "AI services that unlock your next big leap."
+  },
+  "process": {
+    "tagline": "You focus on growth we'll handle the intelligence.",
+    "title": "The Vexa Process, How We Work",
+    "ctaTitle": "Now Let's Make It Work For You.",
+    "ctaButton": "Reserve Your Spot Today",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discovery, Simplified",
+        "subtitle": "Tell us your goals.",
+        "description": "No endless forms or jargon just a quick chat to get started."
+      },
+      {
+        "number": "02",
+        "title": "The Strategy",
+        "subtitle": "We design a tailored AI plan,",
+        "description": "from chatbots to automation, aligned with your business needs."
+      },
+      {
+        "number": "03",
+        "title": "Integration & Setup",
+        "subtitle": "Our team sets up your AI tools seamlessly",
+        "description": "no tech headaches, just smooth onboarding."
+      },
+      {
+        "number": "04",
+        "title": "Optimization & Scale",
+        "subtitle": "We monitor, refine, and scale your",
+        "description": "AI solutions as your business grows."
+      }
+    ]
+  },
+  "humanoid": {
+    "chip": "We help businesses automate, scale, and grow with custom AI workflows built to make every process faster and smarter.",
+    "title": "Smarter Workflows. Less Effort.",
+    "badge": "The vision",
+    "card1": "We automate your workflow from leads to operations so your team can do more, faster.",
+    "card2": "AI chatbots that understand your business and deliver 24/7 human-like support.",
+    "card3": "Your next automation breakthrough.",
+    "card3Accent": "starts here",
+    "exploreServices": "Explore Our Services",
+    "learnAbout": "Learn About Us"
+  },
+  "partners": {
+    "title": "Partners Who Believe in Us",
+    "partner1": {
+      "title": "Automating real estate communication from phone to Telegram.",
+      "description": "We built a custom Telegram bot that bridges the gap between Crypto-Immobilier's commercial and agent teams. Announcements shared through social media and phone are instantly relayed to available agents, who can update deal progress directly through the bot streamlining collaboration and response time.",
+      "company": "Crypto-Immobilier",
+      "subtitle": "Real Estate Company"
+    },
+    "partner2": {
+      "title": "From new listings to instant social media updates.",
+      "description": "For Next Cars, we developed a Telegram-based system that makes managing car listings effortless. Each new vehicle entry is sent to a database, and the bot automatically posts or updates it across social media keeping followers informed in real time and reducing manual work.",
+      "company": "Next-Car",
+      "subtitle": "Car Sales Company"
+    }
+  },
+  "footer": {
+    "home": "HOME",
+    "services": "SERVICES",
+    "about": "ABOUT US",
+    "contact": "CONTACT US",
+    "tagline": "Smarter. Faster. Automated."
+  },
+  "about": {
+    "intro1": "We're <highlight>Vexa AI</highlight> a group of passionate <highlight>Computer Science</highlight> students who believe that <highlight>technology</highlight> isn't just for big companies.",
+    "intro2": "We started Vexa with one clear goal: to help <highlight>businesses</highlight> of all sizes use AI to work smarter, faster, and better.",
+    "intro3": "Born from late-night coding sessions and <highlight>big ideas</highlight>, our team brings together <highlight>creativity</highlight>, problem-solving, and a drive to make automation accessible to <highlight>everyone</highlight>.",
+    "mission1": "To empower <highlight>businesses</highlight> through intelligent automation transforming <highlight>complex</highlight> manual tasks into seamless, efficient workflows powered by <highlight>AI</highlight>.",
+    "mission2": "We want to prove that <highlight>innovation</highlight> doesn't need a massive budget, just vision and the right tools.",
+    "story1": "Like many <highlight>startups</highlight>, Vexa AI began as a simple idea between friends in a <highlight>university</highlight> classroom.",
+    "story2": "We noticed that many <highlight>businesses</highlight> were wasting time on repetitive, manual work that could easily be <highlight>automated</highlight>.",
+    "story3": "So, we decided to use what we were learning coding, data, and AI to build real-world <highlight>solutions</highlight>.",
+    "ctaHeading": "Ready to Transform Your Business?",
+    "ctaSubtext": "Let's discuss how AI automation can streamline your operations and boost productivity.",
+    "ctaButton": "Get Started Today"
+  },
+  "services": {
+    "mainTitle": "Our Intelligent Automation Solutions",
+    "mainSubtitle": "Complete solutions to automate all your business processes",
+    "cards": [
+      {
+        "title": "Intelligent Email Management",
+        "description": "Automate sorting, responses, and follow-up of all your emails effortlessly",
+        "features": [
+          "Automatic sorting and classification",
+          "Predefined and personalized responses",
+          "Automated follow-ups and reminders"
+        ]
+      },
+      {
+        "title": "Automated CRM & Customer Tracking",
+        "description": "Centralize your customer interactions and automate CRM for greater efficiency",
+        "features": [
+          "Complete interaction history",
+          "Intelligent contact segmentation",
+          "Automatic reminders for each opportunity"
+        ]
+      },
+      {
+        "title": "Lead Acquisition & Qualification",
+        "description": "Generate, qualify, and track your prospects automatically",
+        "features": [
+          "Intelligent lead capture forms",
+          "Automatic prospect scoring",
+          "Real-time alerts for your sales team"
+        ]
+      },
+      {
+        "title": "Automatic Appointment Scheduling",
+        "description": "Organize and manage your appointments without manual intervention",
+        "features": [
+          "Intelligent synchronized calendar",
+          "Automated confirmation and email reminders",
+          "Simplified cancellation and rescheduling management"
+        ]
+      },
+      {
+        "title": "Automated Accounting & Invoicing",
+        "description": "Manage your invoices, payments, and financial tracking effortlessly",
+        "features": [
+          "Automatic invoice creation and sending",
+          "Automated payment management",
+          "Real-time bank synchronization"
+        ]
+      },
+      {
+        "title": "Automated Social Media Management",
+        "description": "Plan, publish, and analyze your content without manual effort",
+        "features": [
+          "Automatic post scheduling",
+          "Automated responses and interactions",
+          "Performance analysis and reporting"
+        ]
+      }
+    ],
+    "ctaHeading": "Thank You for Exploring Our Services",
+    "ctaSubtext": "We appreciate your interest in our AI automation solutions. Ready to see how we can help transform your business?",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us"
+  },
+  "values": {
+    "title": "Our Areas of Impact",
+    "ctaText": "Start Your Journey with Us",
+    "ctaButton": "Contact Us",
+    "problemLabel": "Problem:",
+    "solutionLabel": "Our Solution:",
+    "items": [
+      {
+        "title": "Education & Training",
+        "problem": "Schools and training centers waste time on repetitive admin work like registrations, follow-ups, and tracking progress.",
+        "solution": "We build smart automation systems that handle registrations, send reminders, track student data, and even manage communication automatically freeing educators to focus on teaching."
+      },
+      {
+        "title": "Hotels & Travel Agencies",
+        "problem": "Staff spend hours managing bookings, confirmations, and guest communication manually.",
+        "solution": "We create AI-powered booking and messaging systems that automate confirmations, check-ins, and post-stay reviews providing guests with a seamless 24/7 experience."
+      },
+      {
+        "title": "eCommerce & Online Stores",
+        "problem": "Online sellers struggle with repetitive tasks like updating stock, responding to customers, and sending marketing emails.",
+        "solution": "We design AI-driven automations that sync products across platforms, run smart email campaigns, and deploy chatbots that boost sales and customer satisfaction."
+      },
+      {
+        "title": "Real Estate Agencies",
+        "problem": "Agents lose leads and waste time manually managing client follow-ups and property listings.",
+        "solution": "We implement intelligent CRMs and AI chatbots that capture, qualify, and follow up with leads automatically turning prospects into clients faster."
+      },
+      {
+        "title": "Accounting Firms & Consultants",
+        "problem": "Accountants spend too much time collecting invoices, tracking payments, and preparing repetitive financial reports.",
+        "solution": "We build automation systems that gather client documents automatically, send payment reminders, and generate AI-powered financial summaries saving hours of manual work every week."
+      },
+      {
+        "title": "Healthcare & Clinics",
+        "problem": "Clinics face heavy administrative loads with appointment scheduling, patient reminders, and data entry.",
+        "solution": "We set up intelligent automation tools that handle appointment booking, send reminders, and securely organize patient records allowing staff to focus on patient care instead of paperwork."
+      }
+    ]
+  },
+  "contact": {
+    "meetingTitle": "Book a Meeting with Vexa AI",
+    "meetingDescription": "Let's talk about how Vexa AI can help you transform your workflow. Book a free discovery call and let's explore how automation can boost efficiency, and unlock new growth opportunities for your brand.",
+    "aboutTitle": "What This Meeting Is About",
+    "aboutSubtitle": "This isn't a sales call it's a strategy session.",
+    "aboutDescription": "We'll dive into your business, understand your goals, and show you how AI can transform your operations.",
+    "callDuration": "During our 20-30 minute call, we will:",
+    "meetingPoints": [
+      {
+        "bold": "Understand your business",
+        "text": " - what you do, who you serve, and what makes you unique"
+      },
+      {
+        "bold": "Identify what can be automated",
+        "text": " - repetitive tasks or bottlenecks in your workflow"
+      },
+      {
+        "bold": "Share tailored automation ideas",
+        "text": " aligned with your goals and tools"
+      },
+      {
+        "bold": "Plan the next steps",
+        "text": " - from a free concept to a full automation roadmap"
+      }
+    ],
+    "formHeader": "To get in touch and keep communication smooth, we'll need a few basic details.",
+    "formDivider1": "Tell us a bit about your business this helps us understand where automation can make the biggest impact.",
+    "formDivider2": "We'd like to know what brings you here today.",
+    "placeholders": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "preferredDate": "Preferred Date",
+      "companyName": "Company Name",
+      "website": "Website (optional)",
+      "meetingPurpose": "Meeting Purpose / Project Details"
+    },
+    "submitButton": "Book My Free Discovery Call",
+    "successMessage": "Thank you for booking a discovery call! We will get back to you soon.",
+    "errorMessage": "An error occurred. Please try again.",
+    "submitting": "Sending...",
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Please enter a valid phone number",
+      "dateRequired": "Date is required",
+      "companyRequired": "Company name is required",
+      "websiteInvalid": "Please enter a valid URL",
+      "purposeRequired": "Meeting purpose is required"
+    }
+  }
+}

@@ -1,0 +1,349 @@
+.navbar {
+  width: 100%;
+  z-index: 1000;
+  padding-top: 1rem;
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Left side: Language + Logo */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-icon {
+  width: 200px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
+}
+
+.navbar-menu li {
+  margin: 0;
+}
+
+.navbar-menu a {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.navbar-menu a:hover {
+  opacity: 0.7;
+}
+
+.nav-dot {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: linear-gradient(135deg, #62A8B2 0%, #FF6B6B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.navbar-menu li.active .nav-dot {
+  opacity: 1;
+  font-size: 1.5rem;
+}
+
+/* Contact CTA Styles */
+.navbar-menu li.contact-cta a {
+  color: #ff6b35;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.navbar-menu li.contact-cta .nav-dot {
+  color: #ff6b35;
+  -webkit-text-fill-color: #ff6b35;
+}
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 10px rgba(255, 107, 53, 0.5),
+      0 0 20px rgba(255, 107, 53, 0.3),
+      0 0 30px rgba(255, 107, 53, 0.2);
+  }
+
+  50% {
+    transform: scale(1.1);
+    text-shadow: 0 0 15px rgba(255, 107, 53, 0.8),
+      0 0 30px rgba(255, 107, 53, 0.5),
+      0 0 45px rgba(255, 107, 53, 0.3);
+  }
+}
+
+/* Menu Overlay */
+.menu-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.menu-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1001;
+}
+
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: linear-gradient(135deg, #62A8B2 0%, #FF6B6B 100%);
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(8px, 8px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(8px, -8px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    margin-bottom: 50px;
+  }
+
+  .menu-overlay {
+    display: block;
+  }
+
+  .navbar-container {
+    padding: 0 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-logo {
+    justify-content: flex-start;
+  }
+
+  .navbar-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5rem 2rem 2rem;
+    gap: 2rem;
+    font-size: 0.9rem;
+    align-items: flex-start;
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+
+  .navbar-menu.active {
+    right: 0;
+  }
+
+  .navbar-menu a {
+    font-size: 1.2rem;
+  }
+
+  .logo-text {
+    font-size: 1.25rem;
+  }
+}
+
+/* Language Selector Styles */
+.language-selector-top {
+  position: relative;
+  z-index: 1001;
+}
+
+.language-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  font-family: 'Unbounded', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #000;
+  transition: all 0.2s ease;
+}
+
+.language-toggle:hover {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.lang-flag {
+  font-size: 1.2rem;
+}
+
+.lang-code {
+  font-weight: 600;
+}
+
+.lang-arrow {
+  transition: transform 0.2s ease;
+}
+
+.lang-arrow.open {
+  transform: rotate(180deg);
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  list-style: none;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0 0 0;
+  min-width: 150px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.2s ease;
+  z-index: 1002;
+}
+
+.language-dropdown.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.language-dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.language-dropdown li:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.language-dropdown li.selected {
+  background: linear-gradient(135deg, rgba(98, 168, 178, 0.1) 0%, rgba(255, 107, 107, 0.1) 100%);
+}
+
+.language-dropdown .lang-name {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* RTL Support for Navbar */
+.navbar.rtl .navbar-container {
+  flex-direction: row;
+}
+
+/* Keep language selector always on left side, even in RTL */
+.navbar.rtl .navbar-left {
+  flex-direction: row;
+  order: -1;
+}
+
+.navbar.rtl .navbar-menu {
+  align-items: flex-end;
+}
+
+.navbar.rtl .navbar-menu a {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  .navbar.rtl .navbar-menu {
+    right: auto;
+    left: -100%;
+    align-items: flex-end;
+  }
+
+  .navbar.rtl .navbar-menu.active {
+    left: 0;
+    right: auto;
+  }
+  
+  .navbar-left {
+    gap: 0.5rem;
+  }
+  
+  .language-toggle {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .lang-flag {
+    font-size: 1rem;
+  }
+}

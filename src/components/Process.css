@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700&display=swap');
+
+.process {
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+  background: #ffffff;
+}
+
+.process-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.process-header {
+  margin-bottom: 5rem;
+}
+
+.process-tagline {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #FF301A;
+  margin-bottom: 1rem;
+  letter-spacing: 0.01em;
+}
+
+.process-title {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.process-content {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 6rem;
+  align-items: center;
+}
+
+.process-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 150px;
+}
+
+.process-svg svg {
+  width: 204px;
+  height: 194px;
+  max-width: 250px;
+  display: block;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem 4rem;
+}
+
+.process-step {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.step-number {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FF301A;
+  flex-shrink: 0;
+  min-width: 50px;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-title {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FF301A;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+}
+
+.step-subtitle {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 0 0.25rem 0;
+  line-height: 1.5;
+}
+
+.step-description {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.process-cta {
+  margin-top: 6rem;
+  background: linear-gradient(180deg, #FF301A 0%, #D42816 100%);
+  padding: 3rem;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cta-title {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.cta-button {
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .process {
+    padding: 5rem 2rem;
+  }
+
+  .process-title {
+    font-size: 3rem;
+  }
+
+  .process-content {
+    grid-template-columns: 180px 1fr;
+    gap: 4rem;
+  }
+
+  .process-svg {
+    top: 120px;
+  }
+
+  .process-svg svg {
+    width: 180px;
+    height: 171px;
+  }
+
+  .process-steps {
+    gap: 2.5rem 3rem;
+  }
+
+  .step-title {
+    font-size: 1.3rem;
+  }
+
+  .cta-title {
+    font-size: 2.5rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.9rem 2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .process {
+    padding: 4rem 1.5rem;
+  }
+
+  .process-header {
+    margin-bottom: 3rem;
+  }
+
+  .process-tagline {
+    font-size: 1rem;
+  }
+
+  .process-title {
+    font-size: 2.2rem;
+  }
+
+  .process-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .process-svg {
+    position: relative;
+    top: 0;
+  }
+
+  .process-svg svg {
+    width: 150px;
+    height: 142px;
+  }
+
+  .process-steps {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .process-step {
+    gap: 1.5rem;
+  }
+
+  .step-number {
+    font-size: 1.2rem;
+    min-width: 40px;
+  }
+
+  .step-title {
+    font-size: 1.2rem;
+  }
+
+  .step-subtitle,
+  .step-description {
+    font-size: 0.95rem;
+  }
+
+  .process-cta {
+    margin-top: 4rem;
+    padding: 3rem 2rem;
+  }
+
+  .cta-title {
+    font-size: 1.8rem;
+  }
+
+  .cta-button {
+    font-size: 0.95rem;
+    padding: 0.85rem 1.8rem;
+  }
+}
+
+/* RTL Support for Process */
+body.rtl .process-header,
+body.rtl .step-content {
+  text-align: right;
+}
+
+body.rtl .process-step {
+  flex-direction: row-reverse;
+}
+
+body.rtl .step-description {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+}

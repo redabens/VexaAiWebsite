@@ -1,0 +1,253 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contactez-nous"
+  },
+  "hero": {
+    "title": "L'IA Qui Transforme",
+    "titleLine2": "Votre Entreprise",
+    "subtitle": "Des assistants intelligents à l'automatisation",
+    "subtitleLine2": "des flux de travail, nous vous aidons à évoluer plus intelligemment.",
+    "getStarted": "COMMENCER",
+    "areas": "Domaines",
+    "tagline1": "Réimaginez ce qui est possible.",
+    "tagline2": "Redéfinissez votre façon de travailler.",
+    "tagline3": "Des services IA qui débloquent votre prochain grand bond."
+  },
+  "process": {
+    "tagline": "Concentrez-vous sur la croissance nous nous occupons de l'intelligence.",
+    "title": "Le Processus Vexa, Comment Nous Travaillons",
+    "ctaTitle": "Maintenant, Faisons-le Fonctionner Pour Vous.",
+    "ctaButton": "Réservez Votre Place Aujourd'hui",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Découverte, Simplifiée",
+        "subtitle": "Parlez-nous de vos objectifs.",
+        "description": "Pas de formulaires interminables ni de jargon juste une discussion rapide pour commencer."
+      },
+      {
+        "number": "02",
+        "title": "La Stratégie",
+        "subtitle": "Nous concevons un plan IA sur mesure,",
+        "description": "des chatbots à l'automatisation, aligné sur vos besoins commerciaux."
+      },
+      {
+        "number": "03",
+        "title": "Intégration & Configuration",
+        "subtitle": "Notre équipe configure vos outils IA en douceur",
+        "description": "— pas de maux de tête techniques, juste une intégration fluide."
+      },
+      {
+        "number": "04",
+        "title": "Optimisation & Évolution",
+        "subtitle": "Nous surveillons, affinons et faisons évoluer vos",
+        "description": "solutions IA au fur et à mesure que votre entreprise grandit."
+      }
+    ]
+  },
+  "humanoid": {
+    "chip": "Nous aidons les entreprises à automatiser, évoluer et croître avec des flux de travail IA personnalisés conçus pour rendre chaque processus plus rapide et plus intelligent.",
+    "title": "Des Flux de Travail Plus Intelligents. Moins d'Effort.",
+    "badge": "La vision",
+    "card1": "Nous automatisons votre flux de travail des prospects aux opérations pour que votre équipe puisse faire plus, plus vite.",
+    "card2": "Des chatbots IA qui comprennent votre entreprise et offrent un support humain 24h/24.",
+    "card3": "Votre prochaine percée en automatisation.",
+    "card3Accent": "commence ici",
+    "exploreServices": "Explorer Nos Services",
+    "learnAbout": "En Savoir Plus Sur Nous"
+  },
+  "partners": {
+    "title": "Partenaires Qui Croient en Nous",
+    "partner1": {
+      "title": "Automatisation de la communication immobilière du téléphone à Telegram.",
+      "description": "Nous avons créé un bot Telegram personnalisé qui fait le pont entre les équipes commerciales et agents de Crypto-Immobilier. Les annonces partagées via les réseaux sociaux et le téléphone sont instantanément relayées aux agents disponibles, qui peuvent mettre à jour l'avancement des transactions directement via le bot rationalisant la collaboration et le temps de réponse.",
+      "company": "Crypto-Immobilier",
+      "subtitle": "Société Immobilière"
+    },
+    "partner2": {
+      "title": "Des nouvelles annonces aux mises à jour instantanées sur les réseaux sociaux.",
+      "description": "Pour Next Cars, nous avons développé un système basé sur Telegram qui rend la gestion des annonces de voitures sans effort. Chaque nouvelle entrée de véhicule est envoyée à une base de données, et le bot publie ou met à jour automatiquement sur les réseaux sociaux gardant les abonnés informés en temps réel et réduisant le travail manuel.",
+      "company": "Next-Car",
+      "subtitle": "Société de Vente de Voitures"
+    }
+  },
+  "footer": {
+    "home": "ACCUEIL",
+    "services": "SERVICES",
+    "about": "À PROPOS",
+    "contact": "CONTACT",
+    "tagline": "Plus Intelligent. Plus Rapide. Automatisé."
+  },
+  "about": {
+    "intro1": "Nous sommes <highlight>VexaAI</highlight> un groupe d'étudiants passionnés en <highlight>Informatique</highlight> qui croient que la <highlight>technologie</highlight> n'est pas réservée aux grandes entreprises.",
+    "intro2": "Nous avons créé Vexa avec un objectif clair : aider les <highlight>entreprises</highlight> de toutes tailles à utiliser l'IA pour travailler plus intelligemment, plus vite et mieux.",
+    "intro3": "Né de sessions de codage nocturnes et de <highlight>grandes idées</highlight>, notre équipe réunit <highlight>créativité</highlight>, résolution de problèmes et la volonté de rendre l'automatisation accessible à <highlight>tous</highlight>.",
+    "mission1": "Donner aux <highlight>entreprises</highlight> les moyens d'agir grâce à l'automatisation intelligente transformer les tâches manuelles <highlight>complexes</highlight> en flux de travail fluides et efficaces alimentés par l'<highlight>IA</highlight>.",
+    "mission2": "Nous voulons prouver que l'<highlight>innovation</highlight> n'a pas besoin d'un budget énorme, juste d'une vision et des bons outils.",
+    "story1": "Comme beaucoup de <highlight>startups</highlight>, VexaAI a commencé comme une simple idée entre amis dans une salle de classe <highlight>universitaire</highlight>.",
+    "story2": "Nous avons remarqué que de nombreuses <highlight>entreprises</highlight> perdaient du temps sur des tâches répétitives et manuelles qui pouvaient facilement être <highlight>automatisées</highlight>.",
+    "story3": "Nous avons donc décidé d'utiliser ce que nous apprenions codage, données et IA pour créer des <highlight>solutions</highlight> concrètes.",
+    "ctaHeading": "Prêt à Transformer Votre Entreprise ?",
+    "ctaSubtext": "Discutons de la façon dont l'automatisation IA peut rationaliser vos opérations et augmenter la productivité.",
+    "ctaButton": "Commencez Aujourd'hui"
+  },
+  "services": {
+    "mainTitle": "Nos Solutions d'Automatisation Intelligente",
+    "mainSubtitle": "Des solutions complètes pour automatiser tous vos processus métier",
+    "cards": [
+      {
+        "title": "Gestion Intelligente des Emails",
+        "description": "Automatisez le tri, les réponses et le suivi de tous vos emails sans effort",
+        "features": [
+          "Tri et classification automatiques",
+          "Réponses prédéfinies et personnalisées",
+          "Suivis et rappels automatisés"
+        ]
+      },
+      {
+        "title": "CRM & Suivi Client Automatisé",
+        "description": "Centralisez vos interactions clients et automatisez le CRM pour plus d'efficacité",
+        "features": [
+          "Historique complet des interactions",
+          "Segmentation intelligente des contacts",
+          "Rappels automatiques pour chaque opportunité"
+        ]
+      },
+      {
+        "title": "Acquisition & Qualification de Leads",
+        "description": "Générez, qualifiez et suivez vos prospects automatiquement",
+        "features": [
+          "Formulaires de capture de leads intelligents",
+          "Notation automatique des prospects",
+          "Alertes en temps réel pour votre équipe commerciale"
+        ]
+      },
+      {
+        "title": "Planification Automatique de Rendez-vous",
+        "description": "Organisez et gérez vos rendez-vous sans intervention manuelle",
+        "features": [
+          "Calendrier synchronisé intelligent",
+          "Confirmation et rappels par email automatisés",
+          "Gestion simplifiée des annulations et reports"
+        ]
+      },
+      {
+        "title": "Comptabilité & Facturation Automatisées",
+        "description": "Gérez vos factures, paiements et suivi financier sans effort",
+        "features": [
+          "Création et envoi automatique de factures",
+          "Gestion automatisée des paiements",
+          "Synchronisation bancaire en temps réel"
+        ]
+      },
+      {
+        "title": "Gestion Automatisée des Réseaux Sociaux",
+        "description": "Planifiez, publiez et analysez votre contenu sans effort manuel",
+        "features": [
+          "Planification automatique des publications",
+          "Réponses et interactions automatisées",
+          "Analyse de performance et reporting"
+        ]
+      }
+    ],
+    "ctaHeading": "Merci d'Explorer Nos Services",
+    "ctaSubtext": "Nous apprécions votre intérêt pour nos solutions d'automatisation IA. Prêt à voir comment nous pouvons aider à transformer votre entreprise ?",
+    "aboutUs": "À Propos",
+    "contactUs": "Contactez-nous"
+  },
+  "values": {
+    "title": "Nos Domaines d'Impact",
+    "ctaText": "Commencez Votre Parcours Avec Nous",
+    "ctaButton": "Contactez-nous",
+    "problemLabel": "Problème :",
+    "solutionLabel": "Notre Solution :",
+    "items": [
+      {
+        "title": "Éducation & Formation",
+        "problem": "Les écoles et centres de formation perdent du temps sur des tâches administratives répétitives comme les inscriptions, les suivis et le suivi des progrès.",
+        "solution": "Nous construisons des systèmes d'automatisation intelligents qui gèrent les inscriptions, envoient des rappels, suivent les données des étudiants et même gèrent la communication automatiquement libérant les éducateurs pour se concentrer sur l'enseignement."
+      },
+      {
+        "title": "Hôtels & Agences de Voyage",
+        "problem": "Le personnel passe des heures à gérer manuellement les réservations, confirmations et communications avec les clients.",
+        "solution": "Nous créons des systèmes de réservation et de messagerie alimentés par l'IA qui automatisent les confirmations, les check-ins et les avis post-séjour offrant aux clients une expérience fluide 24h/24."
+      },
+      {
+        "title": "eCommerce & Boutiques en Ligne",
+        "problem": "Les vendeurs en ligne luttent avec des tâches répétitives comme la mise à jour des stocks, les réponses aux clients et l'envoi d'emails marketing.",
+        "solution": "Nous concevons des automatisations pilotées par l'IA qui synchronisent les produits sur toutes les plateformes, lancent des campagnes email intelligentes et déploient des chatbots qui boostent les ventes et la satisfaction client."
+      },
+      {
+        "title": "Agences Immobilières",
+        "problem": "Les agents perdent des leads et du temps à gérer manuellement les suivis clients et les annonces de propriétés.",
+        "solution": "Nous implémentons des CRM intelligents et des chatbots IA qui capturent, qualifient et suivent les leads automatiquement transformant les prospects en clients plus rapidement."
+      },
+      {
+        "title": "Cabinets Comptables & Consultants",
+        "problem": "Les comptables passent trop de temps à collecter des factures, suivre les paiements et préparer des rapports financiers répétitifs.",
+        "solution": "Nous construisons des systèmes d'automatisation qui collectent automatiquement les documents clients, envoient des rappels de paiement et génèrent des résumés financiers alimentés par l'IA économisant des heures de travail manuel chaque semaine."
+      },
+      {
+        "title": "Santé & Cliniques",
+        "problem": "Les cliniques font face à de lourdes charges administratives avec la planification des rendez-vous, les rappels aux patients et la saisie de données.",
+        "solution": "Nous mettons en place des outils d'automatisation intelligents qui gèrent la prise de rendez-vous, envoient des rappels et organisent de manière sécurisée les dossiers patients permettant au personnel de se concentrer sur les soins aux patients plutôt que sur la paperasse."
+      }
+    ]
+  },
+  "contact": {
+    "meetingTitle": "Réservez une Réunion avec Vexa AI",
+    "meetingDescription": "Parlons de la façon dont Vexa AI peut vous aider à transformer votre flux de travail. Réservez un appel découverte gratuit et explorons comment l'automatisation peut améliorer l'efficacité et débloquer de nouvelles opportunités de croissance pour votre marque.",
+    "aboutTitle": "De Quoi Parle Cette Réunion",
+    "aboutSubtitle": "Ce n'est pas un appel commercial c'est une session stratégique.",
+    "aboutDescription": "Nous plongerons dans votre entreprise, comprendrons vos objectifs et vous montrerons comment l'IA peut transformer vos opérations.",
+    "callDuration": "Pendant notre appel de 20-30 minutes, nous allons :",
+    "meetingPoints": [
+      {
+        "bold": "Comprendre votre entreprise",
+        "text": " - ce que vous faites, qui vous servez et ce qui vous rend unique"
+      },
+      {
+        "bold": "Identifier ce qui peut être automatisé",
+        "text": " - tâches répétitives ou goulots d'étranglement dans votre flux de travail"
+      },
+      {
+        "bold": "Partager des idées d'automatisation sur mesure",
+        "text": " alignées avec vos objectifs et outils"
+      },
+      {
+        "bold": "Planifier les prochaines étapes",
+        "text": " - d'un concept gratuit à une feuille de route d'automatisation complète"
+      }
+    ],
+    "formHeader": "Pour rester en contact et maintenir une communication fluide, nous aurons besoin de quelques informations de base.",
+    "formDivider1": "Parlez-nous un peu de votre entreprise cela nous aide à comprendre où l'automatisation peut avoir le plus grand impact.",
+    "formDivider2": "Nous aimerions savoir ce qui vous amène ici aujourd'hui.",
+    "placeholders": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Numéro de téléphone",
+      "preferredDate": "Date préférée",
+      "companyName": "Nom de l'entreprise",
+      "website": "Site web (optionnel)",
+      "meetingPurpose": "Objet de la réunion / Détails du projet"
+    },
+    "submitButton": "Réserver Mon Appel Découverte Gratuit",
+    "successMessage": "Merci d'avoir réservé un appel découverte ! Nous vous recontacterons bientôt.",
+    "errorMessage": "Une erreur est survenue. Veuillez réessayer.",
+    "submitting": "Envoi en cours...",
+    "errors": {
+      "nameRequired": "Le nom est requis",
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "Veuillez entrer un email valide",
+      "phoneRequired": "Le numéro de téléphone est requis",
+      "phoneInvalid": "Veuillez entrer un numéro valide",
+      "dateRequired": "La date est requise",
+      "companyRequired": "Le nom de l'entreprise est requis",
+      "websiteInvalid": "Veuillez entrer une URL valide",
+      "purposeRequired": "L'objectif du rendez-vous est requis"
+    }
+  }
+}

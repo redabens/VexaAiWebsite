@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+html.no-snap-scroll,
+body.no-snap-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: auto;
+  min-height: 100%;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* RTL Support - Global Styles */
+body.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+body.rtl * {
+  font-family: 'Unbounded', 'Noto Sans Arabic', 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* RTL specific text alignment fixes */
+body.rtl .hero-content,
+body.rtl .hero-tagline,
+body.rtl .process-header,
+body.rtl .partners-header,
+body.rtl .values-header,
+body.rtl .about-content,
+body.rtl .services-intro {
+  text-align: center;
+}
+
+/* RTL Flexbox Direction Reversals */
+body.rtl .hero-buttons,
+body.rtl .services-cta-buttons,
+body.rtl .card-buttons {
+  flex-direction: row-reverse;
+}
+
+/* RTL Grid/Layout Adjustments */
+body.rtl .mission-card,
+body.rtl .story-card {
+  flex-direction: row-reverse;
+}
+
+body.rtl .contact-content {
+  flex-direction: row-reverse;
+}
+
+body.rtl .values-layout {
+  flex-direction: row-reverse;
+}
+
+/* RTL List styling */
+body.rtl ul {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+body.rtl .service-features li::before {
+  right: 0;
+  left: auto;
+}
+
+/* RTL Form inputs */
+body.rtl input,
+body.rtl textarea,
+body.rtl select {
+  text-align: right;
+}
+
+body.rtl input::placeholder,
+body.rtl textarea::placeholder {
+  text-align: right;
+}
+
+/* RTL Button positioning */
+body.rtl .cta-button,
+body.rtl .submit-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* RTL Footer adjustments */
+body.rtl .footer-links {
+  flex-direction: row-reverse;
+}
+
+body.rtl .footer-social {
+  flex-direction: row-reverse;
+}
+
+/* RTL Process section */
+body.rtl .process-steps {
+  direction: rtl;
+}
+
+body.rtl .step-content {
+  text-align: right;
+}
+
+/* RTL Partner cards */
+body.rtl .partner-info {
+  flex-direction: row-reverse;
+}
+
+body.rtl .partner-details {
+  text-align: right;
+}
+
+/* RTL Values section */
+body.rtl .values-list {
+  align-items: flex-end;
+}
+
+body.rtl .value-item {
+  flex-direction: row-reverse;
+}
+
+body.rtl .values-content {
+  text-align: right;
+}
+
+/* RTL HumanoidSection */
+body.rtl .humanoid-header {
+  text-align: center;
+}
+
+body.rtl .card-content {
+  text-align: right;
+}
+
+body.rtl .card-buttons {
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+
+/* Mobile RTL Adjustments */
+@media (max-width: 768px) {
+  body.rtl .mission-card,
+  body.rtl .story-card {
+    flex-direction: column;
+  }
+
+  body.rtl .contact-content {
+    flex-direction: column;
+  }
+
+  body.rtl .values-layout {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700&display=swap');
+
+.partners {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+  background: #ffffff;
+}
+
+.partners-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.partners-header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.partners-title {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  padding: 0 2rem;
+}
+
+.partner-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 500px;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+@keyframes flash {
+  0%, 100% {
+    box-shadow: 0 0 0 rgba(255, 48, 26, 0);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 48, 26, 0.6);
+  }
+}
+
+.partner-card:nth-child(1) {
+  animation: flash 0.6s ease-out 0.8s;
+}
+
+.partner-card:nth-child(2) {
+  animation: flash 0.6s ease-out 1.1s;
+}
+
+.partner-card-title {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FF301A;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.partner-card-description {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 1.7;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.partner-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.partner-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 50px;
+  background: #f5f5f5;
+  padding: 0.5rem;
+  flex-shrink: 0;
+}
+
+.partner-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.partner-company {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.partner-subtitle {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .partners {
+    padding: 5rem 1.5rem;
+  }
+
+  .partners-title {
+    font-size: 2.8rem;
+  }
+
+  .partners-grid {
+    gap: 3rem;
+    padding: 0 1rem;
+  }
+
+  .partner-card-title {
+    font-size: 1.3rem;
+  }
+
+  .partner-card-description {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .partners {
+    padding: 4rem 1rem;
+  }
+
+  .partners-header {
+    margin-bottom: 3rem;
+  }
+
+  .partners-title {
+    font-size: 2rem;
+  }
+
+  .partners-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 0;
+  }
+
+  .partner-card {
+    gap: 1.25rem;
+  }
+
+  .partner-card-title {
+    font-size: 1.2rem;
+  }
+
+  .partner-card-description {
+    font-size: 0.9rem;
+  }
+
+  .partner-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .partner-company {
+    font-size: 1.1rem;
+  }
+
+  .partner-subtitle {
+    font-size: 0.85rem;
+  }
+}
+
+/* RTL Support for Partners */
+body.rtl .partners-title,
+body.rtl .partner-card-title,
+body.rtl .partner-card-description,
+body.rtl .partner-company,
+body.rtl .partner-subtitle {
+    text-align: right;
+}
+
+body.rtl .partner-card-description {
+    font-weight: 400;
+}
+
+body.rtl .partner-info {
+    flex-direction: row-reverse;
+}
+
+body.rtl .partner-details {
+    align-items: flex-end;
+}

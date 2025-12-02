@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700&display=swap');
+
+.about-page {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.about-hero {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  max-width: 1400px;
+  max-height: 700px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.intro-text {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.4;
+  color: #000000;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.intro-text:last-child {
+  margin-bottom: 0;
+}
+
+.highlight {
+  color: #FF301A;
+  font-weight: 600;
+}
+
+/* Services Intro Section - Part 1 (1 viewport height) */
+.services-intro-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 40px;
+  background: #ffffff;
+}
+
+.services-intro-text {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #000000;
+  text-align: center;
+  max-width: 900px;
+  margin-bottom: 60px;
+}
+
+.services-hero-image {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.services-hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Chevron Section */
+.chevron-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.chevron-text {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ff6b35;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.chevron-icon {
+  animation: chevron-pulse 2s ease-in-out infinite;
+  filter: drop-shadow(0 0 10px rgba(255, 107, 53, 0.6)) drop-shadow(0 0 20px rgba(255, 107, 53, 0.4)) drop-shadow(0 0 30px rgba(255, 107, 53, 0.2));
+}
+
+@keyframes chevron-pulse {
+
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+    filter: drop-shadow(0 0 10px rgba(255, 107, 53, 0.6)) drop-shadow(0 0 20px rgba(255, 107, 53, 0.4)) drop-shadow(0 0 30px rgba(255, 107, 53, 0.2));
+  }
+
+  50% {
+    transform: translateY(10px) scale(1.15);
+    filter: drop-shadow(0 0 15px rgba(255, 107, 53, 0.9)) drop-shadow(0 0 30px rgba(255, 107, 53, 0.6)) drop-shadow(0 0 45px rgba(255, 107, 53, 0.4));
+  }
+}
+
+/* Services Cards Section - Part 2 (1 viewport height) */
+.services-cards-section {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 80px 60px;
+  background: #ffffff;
+  max-width: 1400px;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  border-color: #FF301A;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(255, 48, 26, 0.1);
+}
+
+.service-title {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #FF301A;
+  margin: 0 0 15px 0;
+  line-height: 1.3;
+}
+
+.service-description {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #000000;
+  margin: 0;
+}
+
+/* Mission and Story Section */
+.mission-story-section {
+  max-width: 1200px;
+  margin: 80px auto 0;
+  padding: 0 40px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.mission-card,
+.story-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.section-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-text p {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #000000;
+  margin: 0;
+  text-align: left;
+}
+
+.section-text .highlight {
+  color: #FF301A;
+  font-weight: 600;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background: #000000;
+  padding: 80px 40px;
+  margin: 80px auto 0;
+  margin-bottom: 80px;
+  text-align: center;
+  border-radius: 16px;
+  max-width: 1200px;
+}
+
+.cta-heading {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.cta-subtext {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0 0 40px 0;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 18px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+}
+
+.cta-button:hover {
+  background: #f0f0f0;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 30px rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 1024px) {
+  .about-content {
+    padding: 60px 30px;
+  }
+
+  .intro-text {
+    font-size: 1.3rem;
+  }
+
+  .services-intro-text {
+    font-size: 1.2rem;
+  }
+
+  .services-cards-section {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px 40px;
+    gap: 30px;
+  }
+
+  .mission-story-section {
+    gap: 50px;
+    padding: 0 30px 60px;
+  }
+
+  .mission-card,
+  .story-card {
+    gap: 40px;
+  }
+
+  .section-text p {
+    font-size: 1.1rem;
+  }
+
+  .cta-section {
+    padding: 60px 30px;
+    margin: 60px 30px 0;
+  }
+
+  .cta-heading {
+    font-size: 2.5rem;
+  }
+
+  .cta-subtext {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding-top: 60px;
+  }
+
+  .about-hero {
+    height: 35vh;
+  }
+
+  .about-content {
+    padding: 40px 20px;
+  }
+
+  .intro-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .services-intro-section {
+    padding: 60px 20px;
+    min-height: auto;
+  }
+
+  .services-intro-text {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+
+  .services-hero-image {
+    max-width: 600px;
+  }
+
+  .services-cards-section {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+    gap: 25px;
+    min-height: auto;
+  }
+
+  .service-card {
+    padding: 25px;
+  }
+
+  .service-title {
+    font-size: 1.1rem;
+  }
+
+  .service-description {
+    font-size: 0.95rem;
+  }
+
+  .mission-story-section {
+    margin-top: 60px;
+    padding: 0 20px 60px;
+    gap: 40px;
+  }
+
+  .mission-card,
+  .story-card {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .section-text {
+    order: 2;
+  }
+
+  .section-image {
+    order: 1;
+  }
+
+  .section-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .cta-section {
+    padding: 50px 20px;
+    margin: 50px 20px 0;
+    border-radius: 12px;
+  }
+
+  .cta-heading {
+    font-size: 2rem;
+  }
+
+  .cta-subtext {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 16px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero {
+    height: 30vh;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .services-intro-section {
+    padding: 40px 15px;
+  }
+
+  .services-intro-text {
+    font-size: 1rem;
+  }
+
+  .services-cards-section {
+    padding: 30px 15px;
+    gap: 20px;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+
+  .service-title {
+    font-size: 1rem;
+  }
+
+  .service-description {
+    font-size: 0.9rem;
+  }
+
+  .mission-story-section {
+    margin-top: 40px;
+    padding: 0 15px 40px;
+  }
+
+  .section-text p {
+    font-size: 0.95rem;
+  }
+
+  .cta-section {
+    padding: 40px 15px;
+    margin: 40px 15px 0;
+    margin-bottom: 30px;
+  }
+
+  .cta-heading {
+    font-size: 1.6rem;
+  }
+
+  .cta-subtext {
+    font-size: 0.95rem;
+  }
+
+  .cta-button {
+    font-size: 0.95rem;
+    padding: 14px 35px;
+  }
+}
