@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "googleapis": "^166.0.0",
     "motion": "^12.23.24",
+    "nodemailer": "^7.0.11",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.4"
