@@ -205,6 +205,20 @@ ${meetingPurpose}
           <p><strong>L'équipe Vexaai</strong></p>
           
           <hr style="border: none; border-top: 1px solid #eee; margin: 30px 0;">
+          
+          <div style="text-align: center; margin: 20px 0;">
+            <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Suivez-nous sur les réseaux sociaux</p>
+            <a href="https://www.instagram.com/vexa__ai" target="_blank" style="display: inline-block; margin: 0 10px;">
+              <img src="https://cdn-icons-png.flaticon.com/32/2111/2111463.png" alt="Instagram" width="32" height="32" style="border-radius: 6px;">
+            </a>
+            <a href="https://www.facebook.com/people/VexaAi/61583050565770/?locale=fr_FR" target="_blank" style="display: inline-block; margin: 0 10px;">
+              <img src="https://cdn-icons-png.flaticon.com/32/733/733547.png" alt="Facebook" width="32" height="32">
+            </a>
+            <a href="https://www.linkedin.com/company/vexaia/" target="_blank" style="display: inline-block; margin: 0 10px;">
+              <img src="https://cdn-icons-png.flaticon.com/32/3536/3536505.png" alt="LinkedIn" width="32" height="32">
+            </a>
+          </div>
+          
           <p style="color: #999; font-size: 12px; text-align: center;">
             Cet email a été envoyé automatiquement suite à votre demande sur vexaai.com
           </p>
