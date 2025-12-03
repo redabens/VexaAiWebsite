@@ -68,10 +68,17 @@ exports.handler = async (event, context) => {
     // 1. First, create Google Calendar event
     if (process.env.GOOGLE_CLIENT_EMAIL && process.env.GOOGLE_PRIVATE_KEY) {
       try {
-        // Debug: log if private key looks valid
-        const privateKey = process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n');
-        console.log('Private key starts with:', privateKey.substring(0, 30));
-        console.log('Private key ends with:', privateKey.substring(privateKey.length - 30));
+        // Handle both escaped \n (from env) and literal newlines
+        let privateKey = process.env.GOOGLE_PRIVATE_KEY;
+        // Replace literal \n strings with actual newlines
+        privateKey = privateKey.replace(/\\n/g, '\n');
+        // Also handle case where it might be double-escaped
+        privateKey = privateKey.replace(/\\\\n/g, '\n');
+        
+        console.log('Private key length:', privateKey.length);
+        console.log('Contains BEGIN:', privateKey.includes('BEGIN PRIVATE KEY'));
+        console.log('Contains END:', privateKey.includes('END PRIVATE KEY'));
+        console.log('Newline count:', (privateKey.match(/\n/g) || []).length);
         
         const auth = new google.auth.JWT(
           process.env.GOOGLE_CLIENT_EMAIL,
@@ -79,6 +86,9 @@ exports.handler = async (event, context) => {
           privateKey,
           ['https://www.googleapis.com/auth/calendar']
         );
+        
+        // Authorize first to get better error messages
+        await auth.authorize();
 
         const calendar = google.calendar({ version: 'v3', auth });
 
