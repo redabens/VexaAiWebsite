@@ -38,31 +38,6 @@ exports.handler = async (event, context) => {
       day: 'numeric' 
     });
 
-    // Create event dates for 10:00 AM - 11:00 AM (Europe/Paris)
-    const eventDate = new Date(preferredDate);
-    eventDate.setHours(10, 0, 0, 0);
-    
-    const endDate = new Date(eventDate);
-    endDate.setHours(11, 0, 0, 0);
-
-    // Generate "Add to Google Calendar" link for the client
-    // Format: YYYYMMDDTHHMMSS (local time, without Z to avoid UTC conversion)
-    const formatDateForGCal = (date) => {
-      const year = date.getFullYear();
-      const month = String(date.getMonth() + 1).padStart(2, '0');
-      const day = String(date.getDate()).padStart(2, '0');
-      const hours = String(date.getHours()).padStart(2, '0');
-      const minutes = String(date.getMinutes()).padStart(2, '0');
-      const seconds = String(date.getSeconds()).padStart(2, '0');
-      return `${year}${month}${day}T${hours}${minutes}${seconds}`;
-    };
-    
-    const eventTitle = encodeURIComponent(`Rendez-vous Vexaai - Discussion ${companyName}`);
-    const eventDetails = encodeURIComponent(`Rendez-vous avec l'équipe Vexaai pour discuter de vos besoins en automatisation IA.\n\nEntreprise: ${companyName}\nSujet: ${meetingPurpose}`);
-    const eventLocation = encodeURIComponent('Réunion en ligne (lien à venir)');
-    
-    const googleCalendarLink = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${eventTitle}&dates=${formatDateForGCal(eventDate)}/${formatDateForGCal(endDate)}&details=${eventDetails}&location=${eventLocation}&ctz=Africa/Algiers`;
-
     let calendarEventCreated = false;
 
     // 1. First, create Google Calendar event
@@ -93,23 +68,29 @@ exports.handler = async (event, context) => {
         const calendar = google.calendar({ version: 'v3', auth });
 
         const event = {
-          summary: `📞 RDV Vexaai - ${companyName} (${name})`,
+          summary: `📋 DEMANDE RDV À TRAITER - ${companyName} (${name})`,
           description: `
+⚠️ DEMANDE DE RENDEZ-VOUS À CONFIRMER
+
 Contact: ${name}
 Email: ${email}
 Téléphone: ${phone}
 Entreprise: ${companyName}
 Site web: ${website || 'Non renseigné'}
 
+Date souhaitée par le client: ${formattedDate}
+
 Objectif du rendez-vous:
 ${meetingPurpose}
+
+➡️ ACTION REQUISE: Contacter le client pour confirmer la date et l'heure exactes.
           `.trim(),
           start: {
-            dateTime: eventDate.toISOString(),
+            dateTime: `${preferredDate}T09:00:00`,
             timeZone: 'Africa/Algiers'
           },
           end: {
-            dateTime: endDate.toISOString(),
+            dateTime: `${preferredDate}T09:30:00`,
             timeZone: 'Africa/Algiers'
           },
           reminders: {
@@ -186,31 +167,28 @@ ${meetingPurpose}
           
           <h2 style="color: #333;">Bonjour ${name},</h2>
           
-          <p>Merci pour votre demande de rendez-vous ! Nous avons bien reçu votre demande et nous vous contacterons très prochainement pour confirmer le créneau.</p>
+          <p>Merci pour votre intérêt ! Nous avons bien reçu votre <strong>demande de rendez-vous</strong>.</p>
+          
+          <div style="background: #fff3e0; padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 4px solid #ff9800;">
+            <h3 style="color: #e65100; margin-top: 0;">⏳ En attente de confirmation</h3>
+            <p>Votre demande est en cours de traitement. Un membre de notre équipe vous contactera très prochainement pour <strong>confirmer la date et l'heure exactes</strong> du rendez-vous.</p>
+          </div>
           
           <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; margin: 20px 0;">
-            <h3 style="color: #FF301A; margin-top: 0;">📅 Récapitulatif</h3>
+            <h3 style="color: #FF301A; margin-top: 0;">📅 Récapitulatif de votre demande</h3>
             <p><strong>Date souhaitée:</strong> ${formattedDate}</p>
-            <p><strong>Heure proposée:</strong> 10h00 - 11h00</p>
             <p><strong>Entreprise:</strong> ${companyName}</p>
             <p><strong>Sujet:</strong></p>
             <p style="white-space: pre-wrap;">${meetingPurpose}</p>
           </div>
           
-          <div style="background: #e3f2fd; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: center;">
-            <h3 style="color: #1a73e8; margin-top: 0;">📆 Ajouter à votre calendrier</h3>
-            <p>Bloquez ce créneau dans votre agenda :</p>
-            <a href="${googleCalendarLink}" target="_blank" style="display: inline-block; background: #1a73e8; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; margin: 10px 0;">
-              📅 Ajouter à Google Calendar
-            </a>
-          </div>
-          
-          <div style="background: #fff3e0; padding: 20px; border-radius: 10px; margin: 20px 0;">
-            <h3 style="color: #e65100; margin-top: 0;">📞 Prochaines étapes</h3>
-            <p>Notre équipe va examiner votre demande et vous enverra :</p>
+          <div style="background: #e8f5e9; padding: 20px; border-radius: 10px; margin: 20px 0;">
+            <h3 style="color: #2e7d32; margin-top: 0;">📞 Prochaines étapes</h3>
+            <p>Notre équipe va :</p>
             <ul>
-              <li>Une confirmation de la date et l'heure définitives</li>
-              <li>Le lien pour rejoindre la réunion vidéo</li>
+              <li>Examiner votre demande</li>
+              <li>Vous contacter pour confirmer un créneau qui vous convient</li>
+              <li>Vous envoyer le lien pour rejoindre la réunion vidéo</li>
             </ul>
           </div>
           
