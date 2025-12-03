@@ -208,14 +208,20 @@ ${meetingPurpose}
           
           <div style="text-align: center; margin: 20px 0;">
             <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Suivez-nous sur les réseaux sociaux</p>
-            <a href="https://www.instagram.com/vexa__ai" target="_blank" style="display: inline-block; margin: 0 10px;">
-              <img src="https://cdn-icons-png.flaticon.com/32/2111/2111463.png" alt="Instagram" width="32" height="32" style="border-radius: 6px;">
+            <a href="https://www.instagram.com/vexa__ai" target="_blank" style="display: inline-block; margin: 0 8px; text-decoration: none;">
+              <div style="width: 40px; height: 40px; background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); border-radius: 10px; display: inline-flex; align-items: center; justify-content: center;">
+                <span style="color: white; font-size: 20px;">📷</span>
+              </div>
             </a>
-            <a href="https://www.facebook.com/people/VexaAi/61583050565770/?locale=fr_FR" target="_blank" style="display: inline-block; margin: 0 10px;">
-              <img src="https://cdn-icons-png.flaticon.com/32/733/733547.png" alt="Facebook" width="32" height="32">
+            <a href="https://www.facebook.com/people/VexaAi/61583050565770/?locale=fr_FR" target="_blank" style="display: inline-block; margin: 0 8px; text-decoration: none;">
+              <div style="width: 40px; height: 40px; background: #1877f2; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center;">
+                <span style="color: white; font-size: 20px; font-weight: bold;">f</span>
+              </div>
             </a>
-            <a href="https://www.linkedin.com/company/vexaia/" target="_blank" style="display: inline-block; margin: 0 10px;">
-              <img src="https://cdn-icons-png.flaticon.com/32/3536/3536505.png" alt="LinkedIn" width="32" height="32">
+            <a href="https://www.linkedin.com/company/vexaia/" target="_blank" style="display: inline-block; margin: 0 8px; text-decoration: none;">
+              <div style="width: 40px; height: 40px; background: #0a66c2; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center;">
+                <span style="color: white; font-size: 18px; font-weight: bold;">in</span>
+              </div>
             </a>
           </div>
           
