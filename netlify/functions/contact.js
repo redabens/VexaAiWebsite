@@ -68,10 +68,15 @@ exports.handler = async (event, context) => {
     // 1. First, create Google Calendar event
     if (process.env.GOOGLE_CLIENT_EMAIL && process.env.GOOGLE_PRIVATE_KEY) {
       try {
+        // Debug: log if private key looks valid
+        const privateKey = process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n');
+        console.log('Private key starts with:', privateKey.substring(0, 30));
+        console.log('Private key ends with:', privateKey.substring(privateKey.length - 30));
+        
         const auth = new google.auth.JWT(
           process.env.GOOGLE_CLIENT_EMAIL,
           null,
-          process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n'),
+          privateKey,
           ['https://www.googleapis.com/auth/calendar']
         );
 
@@ -208,21 +213,25 @@ ${meetingPurpose}
           
           <div style="text-align: center; margin: 20px 0;">
             <p style="color: #666; font-size: 14px; margin-bottom: 15px;">Suivez-nous sur les réseaux sociaux</p>
-            <a href="https://www.instagram.com/vexa__ai" target="_blank" style="display: inline-block; margin: 0 8px; text-decoration: none;">
-              <div style="width: 40px; height: 40px; background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); border-radius: 10px; display: inline-flex; align-items: center; justify-content: center;">
-                <span style="color: white; font-size: 20px;">📷</span>
-              </div>
-            </a>
-            <a href="https://www.facebook.com/people/VexaAi/61583050565770/?locale=fr_FR" target="_blank" style="display: inline-block; margin: 0 8px; text-decoration: none;">
-              <div style="width: 40px; height: 40px; background: #1877f2; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center;">
-                <span style="color: white; font-size: 20px; font-weight: bold;">f</span>
-              </div>
-            </a>
-            <a href="https://www.linkedin.com/company/vexaia/" target="_blank" style="display: inline-block; margin: 0 8px; text-decoration: none;">
-              <div style="width: 40px; height: 40px; background: #0a66c2; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center;">
-                <span style="color: white; font-size: 18px; font-weight: bold;">in</span>
-              </div>
-            </a>
+            <table align="center" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+              <tr>
+                <td style="padding: 0 8px;">
+                  <a href="https://www.instagram.com/vexa__ai" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png" alt="Instagram" width="36" height="36" style="display: block;">
+                  </a>
+                </td>
+                <td style="padding: 0 8px;">
+                  <a href="https://www.facebook.com/people/VexaAi/61583050565770/?locale=fr_FR" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png" alt="Facebook" width="36" height="36" style="display: block;">
+                  </a>
+                </td>
+                <td style="padding: 0 8px;">
+                  <a href="https://www.linkedin.com/company/vexaia/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" alt="LinkedIn" width="36" height="36" style="display: block;">
+                  </a>
+                </td>
+              </tr>
+            </table>
           </div>
           
           <p style="color: #999; font-size: 12px; text-align: center;">
