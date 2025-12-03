@@ -80,15 +80,15 @@ exports.handler = async (event, context) => {
         console.log('Contains END:', privateKey.includes('END PRIVATE KEY'));
         console.log('Newline count:', (privateKey.match(/\n/g) || []).length);
         
-        const auth = new google.auth.JWT(
-          process.env.GOOGLE_CLIENT_EMAIL,
-          null,
-          privateKey,
-          ['https://www.googleapis.com/auth/calendar']
-        );
+        const auth = new google.auth.JWT({
+          email: process.env.GOOGLE_CLIENT_EMAIL,
+          key: privateKey,
+          scopes: ['https://www.googleapis.com/auth/calendar']
+        });
         
         // Authorize first to get better error messages
         await auth.authorize();
+        console.log('Auth successful!');
 
         const calendar = google.calendar({ version: 'v3', auth });
 
