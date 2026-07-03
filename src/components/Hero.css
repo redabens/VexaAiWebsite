@@ -162,7 +162,6 @@
 @media (max-width: 1024px) {
     .hero-container {
         grid-template-columns: 1fr;
-        grid-auto-rows: 1fr 1fr;
         gap: 3rem;
     }
 
