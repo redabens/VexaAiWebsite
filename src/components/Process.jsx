@@ -1,11 +1,9 @@
-import { useState } from 'react'
 import { motion } from 'motion/react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../i18n/LanguageContext'
 import './Process.css'
 
 function Process() {
-  const [lineComplete, setLineComplete] = useState(false)
   const { t, isRTL } = useLanguage()
   
   const steps = t('process.steps')
@@ -56,7 +54,6 @@ function Process() {
                   ease: "easeInOut",
                   delay: 0.3
                 }}
-                onAnimationComplete={() => setLineComplete(true)}
               />
               <defs>
                 <linearGradient 
@@ -79,12 +76,13 @@ function Process() {
               <motion.div
                 key={step.number}
                 className="process-step"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={lineComplete ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
                 transition={{
                   duration: 0.5,
                   delay: index * 0.15,
-                  ease: [0.4, 0, 0.2, 1]
+                  ease: [0.215, 0.61, 0.355, 1]
                 }}
               >
                 <div className="step-number">{step.number}</div>
