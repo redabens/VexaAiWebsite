@@ -11,6 +11,7 @@ const HumanoidSection = () => {
     const { t, isRTL } = useLanguage();
 
     useEffect(() => {
+        const section = sectionRef.current;
         const observer = new IntersectionObserver(
             (entries) => {
                 const [entry] = entries;
@@ -19,13 +20,12 @@ const HumanoidSection = () => {
             { threshold: 0.1 }
         );
 
-        if (sectionRef.current) {
-            observer.observe(sectionRef.current);
+        if (section) {
+            observer.observe(section);
         }
 
         // Get the actual scroll container - #root or window
         const scrollContainer = document.getElementById('root') || window;
-        const isElementScroll = scrollContainer !== window;
 
         const handleScroll = () => {
             if (!ticking.current) {
@@ -78,8 +78,8 @@ const HumanoidSection = () => {
 
         return () => {
             scrollContainer.removeEventListener('scroll', handleScroll);
-            if (sectionRef.current) {
-                observer.unobserve(sectionRef.current);
+            if (section) {
+                observer.unobserve(section);
             }
         };
     }, []);
@@ -111,7 +111,7 @@ const HumanoidSection = () => {
                             <div className="card-background card-background-1"></div>
 
                             <div className="card-badge">
-                                <span className="card-badge-text">{t('humanoid.badge')}</span>
+                                <span className="card-badge-text">{t('humanoid.badge1')}</span>
                             </div>
 
                             <div className="card-content">
@@ -128,7 +128,7 @@ const HumanoidSection = () => {
                             <div className="card-background card-background-2"></div>
 
                             <div className="card-badge">
-                                <span className="card-badge-text">{t('humanoid.badge')}</span>
+                                <span className="card-badge-text">{t('humanoid.badge2')}</span>
                             </div>
 
                             <div className="card-content">
@@ -145,7 +145,7 @@ const HumanoidSection = () => {
                             <div className="card-background card-background-3"></div>
 
                             <div className="card-badge">
-                                <span className="card-badge-text">{t('humanoid.badge')}</span>
+                                <span className="card-badge-text">{t('humanoid.badge3')}</span>
                             </div>
 
                             <div className="card-content">

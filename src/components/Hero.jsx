@@ -6,11 +6,12 @@ import './Hero.css'
 
 const LoadingScreen = lazy(() => import('./LoadingScreen'))
 
+const images = ['/showcase.png', '/showcase2.png']
+
 function Hero() {
   const [currentImage, setCurrentImage] = useState(0)
   const [isLoading, setIsLoading] = useState(true)
   const { t, isRTL } = useLanguage()
-  const images = ['/showcase.png', '/showcase2.png']
 
   useEffect(() => {
     // Minimum loading time to show one full animation cycle (3 seconds)

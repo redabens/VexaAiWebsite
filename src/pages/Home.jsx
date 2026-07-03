@@ -9,15 +9,11 @@ import { useState, useEffect, lazy, Suspense } from 'react'
 const HumanoidSection = lazy(() => import('../components/HumanoidSection'))
 
 function Home() {
-  const [animationKey, setAnimationKey] = useState(0)
-  const [isLoadingComplete, setIsLoadingComplete] = useState(false)
   const [svgLoaded, setSvgLoaded] = useState(false)
 
   useEffect(() => {
     // Set SVG as loaded after a short delay
     const timer = setTimeout(() => {
-      setIsLoadingComplete(true)
-      setAnimationKey(Date.now())
       setSvgLoaded(true)
     }, 3000)
 

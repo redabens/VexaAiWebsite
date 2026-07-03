@@ -6,55 +6,57 @@
     "contact": "Contactez-nous"
   },
   "hero": {
-    "title": "L'IA Qui Transforme",
-    "titleLine2": "Votre Entreprise",
-    "subtitle": "Des assistants intelligents à l'automatisation",
-    "subtitleLine2": "des flux de travail, nous vous aidons à évoluer plus intelligemment.",
+    "title": "L'Ingénierie Logicielle et",
+    "titleLine2": "l'IA Sur-Mesure pour Résoudre vos Problèmes Business.",
+    "subtitle": "De la gestion de vos stocks à la structuration de vos ventes,",
+    "subtitleLine2": "nous concevons des systèmes robustes et personnalisés pour maximiser votre rentabilité.",
     "getStarted": "COMMENCER",
     "areas": "Domaines",
     "tagline1": "Réimaginez ce qui est possible.",
     "tagline2": "Redéfinissez votre façon de travailler.",
-    "tagline3": "Des services IA qui débloquent votre prochain grand bond."
+    "tagline3": "Des systèmes intelligents conçus pour structurer, automatiser et propulser vos opérations."
   },
   "process": {
-    "tagline": "Concentrez-vous sur la croissance nous nous occupons de l'intelligence.",
-    "title": "Le Processus Vexa, Comment Nous Travaillons",
+    "tagline": "Concentrez-vous sur votre croissance. Nous résolvons vos blocages opérationnels.",
+    "title": "La Méthodologie Vexa : On résout d'abord, on code ensuite",
     "ctaTitle": "Maintenant, Faisons-le Fonctionner Pour Vous.",
     "ctaButton": "Réservez Votre Place Aujourd'hui",
     "steps": [
       {
         "number": "01",
-        "title": "Découverte, Simplifiée",
-        "subtitle": "Parlez-nous de vos objectifs.",
-        "description": "Pas de formulaires interminables ni de jargon juste une discussion rapide pour commencer."
+        "title": "Consultation & Audit",
+        "subtitle": "Nous comprenons vos douleurs d'abord.",
+        "description": "Pas de formulaires standardisés. Nous analysons vos goulots d'étranglement opérationnels lors d'un échange direct."
       },
       {
         "number": "02",
-        "title": "La Stratégie",
-        "subtitle": "Nous concevons un plan IA sur mesure,",
-        "description": "des chatbots à l'automatisation, aligné sur vos besoins commerciaux."
+        "title": "Analyse & Diagnostic",
+        "subtitle": "Que faut-il résoudre ?",
+        "description": "Nous cartographions vos processus pour déterminer ce qui doit être développé, automatisé ou propulsé par le marketing."
       },
       {
         "number": "03",
-        "title": "Intégration & Configuration",
-        "subtitle": "Notre équipe configure vos outils IA en douceur",
-        "description": "— pas de maux de tête techniques, juste une intégration fluide."
+        "title": "Architecture Sur-Mesure",
+        "subtitle": "Zéro copier-coller.",
+        "description": "Nous concevons l'architecture technique (ERP, CRM, IA ou tunnels d'acquisition) parfaitement adaptée à vos opérations."
       },
       {
         "number": "04",
-        "title": "Optimisation & Évolution",
-        "subtitle": "Nous surveillons, affinons et faisons évoluer vos",
-        "description": "solutions IA au fur et à mesure que votre entreprise grandit."
+        "title": "Développement & Action",
+        "subtitle": "Nous codons, filmons et déployons.",
+        "description": "Nos ingénieurs développent vos outils et nos équipes lancent vos campagnes de croissance. Nous suivons l'impact sur votre rentabilité."
       }
     ]
   },
   "humanoid": {
-    "chip": "Nous aidons les entreprises à automatiser, évoluer et croître avec des flux de travail IA personnalisés conçus pour rendre chaque processus plus rapide et plus intelligent.",
-    "title": "Des Flux de Travail Plus Intelligents. Moins d'Effort.",
-    "badge": "La vision",
-    "card1": "Nous automatisons votre flux de travail des prospects aux opérations pour que votre équipe puisse faire plus, plus vite.",
-    "card2": "Des chatbots IA qui comprennent votre entreprise et offrent un support humain 24h/24.",
-    "card3": "Votre prochaine percée en automatisation.",
+    "chip": "Nous agissons comme des Growth Partners. Nous éliminons les frictions opérationnelles et maximisons vos revenus grâce à des systèmes logiciels et marketing sur-mesure.",
+    "title": "Résoudre vos Problèmes de Gestion. Accélérer vos Ventes.",
+    "badge1": "Opérations & Processus",
+    "badge2": "Relation Client 24/7",
+    "badge3": "Notre Mission",
+    "card1": "De la gestion des stocks à la logistique, nous structurons vos opérations pour que vos équipes fassent plus, plus vite.",
+    "card2": "Des solutions intelligentes pour centraliser vos clients, suivre vos finances et automatiser vos flux sans effort.",
+    "card3": "Votre prochain levier de croissance.",
     "card3Accent": "commence ici",
     "exploreServices": "Explorer Nos Services",
     "learnAbout": "En Savoir Plus Sur Nous"
@@ -62,13 +64,13 @@
   "partners": {
     "title": "Partenaires Qui Croient en Nous",
     "partner1": {
-      "title": "Automatisation de la communication immobilière du téléphone à Telegram.",
+      "title": "Automatisation de la communication immobilière de votre téléphone à vos canaux favoris (WhatsApp, Telegram).",
       "description": "Nous avons créé un bot Telegram personnalisé qui fait le pont entre les équipes commerciales et agents de Crypto-Immobilier. Les annonces partagées via les réseaux sociaux et le téléphone sont instantanément relayées aux agents disponibles, qui peuvent mettre à jour l'avancement des transactions directement via le bot rationalisant la collaboration et le temps de réponse.",
       "company": "Crypto-Immobilier",
       "subtitle": "Société Immobilière"
     },
     "partner2": {
-      "title": "Des nouvelles annonces aux mises à jour instantanées sur les réseaux sociaux.",
+      "title": "De nouvelles annonces aux mises à jour instantanées sur les réseaux sociaux.",
       "description": "Pour Next Cars, nous avons développé un système basé sur Telegram qui rend la gestion des annonces de voitures sans effort. Chaque nouvelle entrée de véhicule est envoyée à une base de données, et le bot publie ou met à jour automatiquement sur les réseaux sociaux gardant les abonnés informés en temps réel et réduisant le travail manuel.",
       "company": "Next-Car",
       "subtitle": "Société de Vente de Voitures"
@@ -82,85 +84,70 @@
     "tagline": "Plus Intelligent. Plus Rapide. Automatisé."
   },
   "about": {
-    "intro1": "Nous sommes <highlight>VexaAI</highlight> un groupe d'étudiants passionnés en <highlight>Informatique</highlight> qui croient que la <highlight>technologie</highlight> n'est pas réservée aux grandes entreprises.",
-    "intro2": "Nous avons créé Vexa avec un objectif clair : aider les <highlight>entreprises</highlight> de toutes tailles à utiliser l'IA pour travailler plus intelligemment, plus vite et mieux.",
-    "intro3": "Né de sessions de codage nocturnes et de <highlight>grandes idées</highlight>, notre équipe réunit <highlight>créativité</highlight>, résolution de problèmes et la volonté de rendre l'automatisation accessible à <highlight>tous</highlight>.",
-    "mission1": "Donner aux <highlight>entreprises</highlight> les moyens d'agir grâce à l'automatisation intelligente transformer les tâches manuelles <highlight>complexes</highlight> en flux de travail fluides et efficaces alimentés par l'<highlight>IA</highlight>.",
-    "mission2": "Nous voulons prouver que l'<highlight>innovation</highlight> n'a pas besoin d'un budget énorme, juste d'une vision et des bons outils.",
-    "story1": "Comme beaucoup de <highlight>startups</highlight>, VexaAI a commencé comme une simple idée entre amis dans une salle de classe <highlight>universitaire</highlight>.",
-    "story2": "Nous avons remarqué que de nombreuses <highlight>entreprises</highlight> perdaient du temps sur des tâches répétitives et manuelles qui pouvaient facilement être <highlight>automatisées</highlight>.",
-    "story3": "Nous avons donc décidé d'utiliser ce que nous apprenions codage, données et IA pour créer des <highlight>solutions</highlight> concrètes.",
-    "ctaHeading": "Prêt à Transformer Votre Entreprise ?",
-    "ctaSubtext": "Discutons de la façon dont l'automatisation IA peut rationaliser vos opérations et augmenter la productivité.",
-    "ctaButton": "Commencez Aujourd'hui"
+    "intro1": "<highlight>VexaAI</highlight> est née de la synergie entre de futurs ingénieurs de l'ESI et de l'USTHB, unis par une vision commune : mettre l'excellence technique au service des <highlight>entreprises</highlight> en Algérie.",
+    "intro2": "Nous concevons des architectures logicielles et d'IA sur-mesure pour structurer et <highlight>scaler les opérations</highlight> des PME et grandes entreprises.",
+    "intro3": "Notre équipe allie <highlight>rigueur mathématique</highlight> et ingénierie de pointe pour transformer vos défis complexes en systèmes performants et générateurs de valeur.",
+    "mission1": "Propulser la croissance des leaders du marché en intégrant l'<highlight>intelligence artificielle</highlight> au cœur de leurs processus opérationnels.",
+    "mission2": "We believe in a pragmatic innovation that generates <highlight>measurable ROI</highlight> from the very first days of deployment.",
+    "story1": "L'aventure VexaAI a débuté au sein des laboratoires universitaires de l'<highlight>ESI</highlight> et de l'<highlight>USTHB</highlight>.",
+    "story2": "Face aux inefficacités opérationnelles des entreprises locales, nous avons décidé de créer des <highlight>solutions sur-mesure</highlight>.",
+    "story3": "En combinant développement sur-mesure et intelligence artificielle, nous façonnons l'<highlight>avenir digital</highlight> de l'écosystème B2B.",
+    "ctaHeading": "Prêt à Structurer et Scaler votre Entreprise ?",
+    "ctaSubtext": "Discutons de la façon dont l'automatisation et les architectures IA sur-mesure peuvent propulser vos opérations.",
+    "ctaButton": "Commencez Aujourd'hui",
+    "whoAreWeAlt": "Qui sommes-nous",
+    "ourMissionAlt": "Notre Mission",
+    "ourStoryAlt": "Notre Histoire"
   },
   "services": {
-    "mainTitle": "Nos Solutions d'Automatisation Intelligente",
-    "mainSubtitle": "Des solutions complètes pour automatiser tous vos processus métier",
+    "mainTitle": "Nos Domaines d'Expertise",
+    "mainSubtitle": "Nous concevons des logiciels sur-mesure, intégrons des agents IA et propulsons votre acquisition client.",
     "cards": [
       {
-        "title": "Gestion Intelligente des Emails",
-        "description": "Automatisez le tri, les réponses et le suivi de tous vos emails sans effort",
+        "title": "Agents IA & Gestion des Flux d'Information",
+        "description": "Déploiement d'agents IA capables de comprendre, trier et répondre automatiquement à vos flux de communications entrants.",
         "features": [
-          "Tri et classification automatiques",
-          "Réponses prédéfinies et personnalisées",
-          "Suivis et rappels automatisés"
+          "Tri et classification automatiques des flux",
+          "Réponses personnalisées par IA générative",
+          "Suivis et aiguillages automatiques"
         ]
       },
       {
-        "title": "CRM & Suivi Client Automatisé",
-        "description": "Centralisez vos interactions clients et automatisez le CRM pour plus d'efficacité",
+        "title": "Architectures CRM & ERP Sur-Mesure",
+        "description": "Conception de bases de données et d'outils de suivi client adaptés à votre processus de vente, sans fioritures.",
         "features": [
-          "Historique complet des interactions",
-          "Segmentation intelligente des contacts",
-          "Rappels automatiques pour chaque opportunité"
+          "Modélisation de données et pipelines personnalisés",
+          "Tableaux de bord et indicateurs clés (KPI)",
+          "Fiches clients et suivi d'opportunités unifiés"
         ]
       },
       {
-        "title": "Acquisition & Qualification de Leads",
-        "description": "Générez, qualifiez et suivez vos prospects automatiquement",
-        "features": [
-          "Formulaires de capture de leads intelligents",
-          "Notation automatique des prospects",
-          "Alertes en temps réel pour votre équipe commerciale"
-        ]
-      },
-      {
-        "title": "Planification Automatique de Rendez-vous",
-        "description": "Organisez et gérez vos rendez-vous sans intervention manuelle",
-        "features": [
-          "Calendrier synchronisé intelligent",
-          "Confirmation et rappels par email automatisés",
-          "Gestion simplifiée des annulations et reports"
-        ]
-      },
-      {
-        "title": "Comptabilité & Facturation Automatisées",
-        "description": "Gérez vos factures, paiements et suivi financier sans effort",
+        "title": "Automatisation de la Facturation & Suivi Financier",
+        "description": "Génération automatique de factures, suivi des paiements clients et rapprochement financier simplifié.",
         "features": [
           "Création et envoi automatique de factures",
-          "Gestion automatisée des paiements",
-          "Synchronisation bancaire en temps réel"
+          "Rappels et relances de paiement programmés",
+          "Rapprochement et reporting de trésorerie"
         ]
       },
       {
-        "title": "Gestion Automatisée des Réseaux Sociaux",
-        "description": "Planifiez, publiez et analysez votre contenu sans effort manuel",
+        "title": "Systèmes d'Acquisition & Tunnels de Vente",
+        "description": "Mise en place de campagnes publicitaires ciblées et de tunnels d'acquisition automatisés pour convertir votre audience en clients qualifiés.",
         "features": [
-          "Planification automatique des publications",
-          "Réponses et interactions automatisées",
-          "Analyse de performance et reporting"
+          "Ciblage précis et acquisition multicanale",
+          "Formulaires et qualification automatique des leads",
+          "Reporting et suivi du coût d'acquisition"
         ]
       }
     ],
-    "ctaHeading": "Merci d'Explorer Nos Services",
-    "ctaSubtext": "Nous apprécions votre intérêt pour nos solutions d'automatisation IA. Prêt à voir comment nous pouvons aider à transformer votre entreprise ?",
+    "ctaHeading": "Prêt à Structurer et Scaler votre Entreprise ?",
+    "ctaSubtext": "Ne laissez plus le désordre opérationnel freiner votre croissance. Commençons par un audit de vos processus pour identifier vos leviers de rentabilité.",
     "aboutUs": "À Propos",
-    "contactUs": "Contactez-nous"
+    "contactUs": "Réserver mon Audit Stratégique (15 min)"
   },
   "values": {
     "title": "Nos Domaines d'Impact",
-    "ctaText": "Commencez Votre Parcours Avec Nous",
+    "ctaText": "Nous concevons des systèmes logiques pour résoudre vos douleurs réelles.",
     "ctaButton": "Contactez-nous",
     "problemLabel": "Problème :",
     "solutionLabel": "Notre Solution :",
@@ -168,7 +155,7 @@
       {
         "title": "Éducation & Formation",
         "problem": "Les écoles et centres de formation perdent du temps sur des tâches administratives répétitives comme les inscriptions, les suivis et le suivi des progrès.",
-        "solution": "Nous construisons des systèmes d'automatisation intelligents qui gèrent les inscriptions, envoient des rappels, suivent les données des étudiants et même gèrent la communication automatiquement libérant les éducateurs pour se concentrer sur l'enseignement."
+        "solution": "Nous développons un logiciel de gestion interne couplé à une IA WhatsApp. Le système suit les paiements et envoie automatiquement des rappels personnalisés aux parents en cas de retard, libérant vos équipes administratives."
       },
       {
         "title": "Hôtels & Agences de Voyage",
@@ -198,32 +185,32 @@
     ]
   },
   "contact": {
-    "meetingTitle": "Réservez une Réunion avec Vexa AI",
-    "meetingDescription": "Parlons de la façon dont Vexa AI peut vous aider à transformer votre flux de travail. Réservez un appel découverte gratuit et explorons comment l'automatisation peut améliorer l'efficacité et débloquer de nouvelles opportunités de croissance pour votre marque.",
-    "aboutTitle": "De Quoi Parle Cette Réunion",
-    "aboutSubtitle": "Ce n'est pas un appel commercial c'est une session stratégique.",
-    "aboutDescription": "Nous plongerons dans votre entreprise, comprendrons vos objectifs et vous montrerons comment l'IA peut transformer vos opérations.",
-    "callDuration": "Pendant notre appel de 20-30 minutes, nous allons :",
+    "meetingTitle": "Demandez votre Audit Opérationnel Gratuit (15 min)",
+    "meetingDescription": "Ce n'est pas un appel commercial : c'est une session stratégique. Pas de jargon technique, pas de pression. Juste des solutions concrètes pour vos problèmes business.",
+    "aboutTitle": "Au programme de cet audit",
+    "aboutSubtitle": "Ce n'est pas un appel commercial : c'est une session stratégique.",
+    "aboutDescription": "Nous analysons votre modèle opérationnel pour concevoir des solutions technologiques et d'acquisition à fort impact.",
+    "callDuration": "Durant notre échange de 15 minutes, nous aborderons :",
     "meetingPoints": [
       {
-        "bold": "Comprendre votre entreprise",
-        "text": " - ce que vous faites, qui vous servez et ce qui vous rend unique"
+        "bold": "Diagnostic de vos opérations :",
+        "text": " Nous analysons vos flux actuels pour identifier les goulots d'étranglement qui vous coûtent cher."
       },
       {
-        "bold": "Identifier ce qui peut être automatisé",
-        "text": " - tâches répétitives ou goulots d'étranglement dans votre flux de travail"
+        "bold": "Héritage technique sur-mesure :",
+        "text": " Nous explorons s'il vous faut un logiciel dédié (ERP/CRM) ou une simple brique d'automatisation intelligente pour libérer vos équipes."
       },
       {
-        "bold": "Partager des idées d'automatisation sur mesure",
-        "text": " alignées avec vos objectifs et outils"
+        "bold": "Stratégie d'acquisition :",
+        "text": " Nous évaluons comment le marketing digital et le filmmaking peuvent booster vos ventes."
       },
       {
-        "bold": "Planifier les prochaines étapes",
-        "text": " - d'un concept gratuit à une feuille de route d'automatisation complète"
+        "bold": "Zéro engagement :",
+        "text": " Vous repartez avec des idées concrètes. Libre à vous de les implémenter seul, ou de nous laisser le faire pour vous."
       }
     ],
-    "formHeader": "Pour rester en contact et maintenir une communication fluide, nous aurons besoin de quelques informations de base.",
-    "formDivider1": "Parlez-nous un peu de votre entreprise cela nous aide à comprendre où l'automatisation peut avoir le plus grand impact.",
+    "formHeader": "Planifiez votre session en quelques secondes :",
+    "formDivider1": "Parlez-nous un peu de votre entreprise. Cela nous aide à comprendre où le développement sur-mesure et la structuration opérationnelle peuvent avoir le plus grand impact.",
     "formDivider2": "Nous aimerions savoir ce qui vous amène ici aujourd'hui.",
     "placeholders": {
       "name": "Nom",

@@ -1,60 +1,62 @@
 {
   "nav": {
-    "home": "home",
+    "home": "Home",
     "about": "About us",
     "services": "Services",
     "contact": "Contact Us"
   },
   "hero": {
-    "title": "AI That Transforms",
-    "titleLine2": "Your Business",
-    "subtitle": "From intelligent assistants to workflow",
-    "subtitleLine2": "automation, we help you scale smarter.",
+    "title": "Custom Software Engineering &",
+    "titleLine2": "Smart Systems to Solve Your Real Business Bottlenecks.",
+    "subtitle": "From inventory management to structuring your sales pipeline,",
+    "subtitleLine2": "we design robust, customized systems to maximize your profitability.",
     "getStarted": "GET STARTED",
     "areas": "Areas",
     "tagline1": "Reimagine what's possible.",
     "tagline2": "Redefine how you work.",
-    "tagline3": "AI services that unlock your next big leap."
+    "tagline3": "Intelligent systems designed to structure, automate, and scale your business operations."
   },
   "process": {
-    "tagline": "You focus on growth we'll handle the intelligence.",
-    "title": "The Vexa Process, How We Work",
+    "tagline": "Focus on your growth. We solve your operational headaches.",
+    "title": "The Vexa Process: We solve first, we code later",
     "ctaTitle": "Now Let's Make It Work For You.",
     "ctaButton": "Reserve Your Spot Today",
     "steps": [
       {
         "number": "01",
-        "title": "Discovery, Simplified",
-        "subtitle": "Tell us your goals.",
-        "description": "No endless forms or jargon just a quick chat to get started."
+        "title": "Consultation & Audit",
+        "subtitle": "We understand your pain points first.",
+        "description": "No standardized templates. We analyze your operational bottlenecks through direct conversation."
       },
       {
         "number": "02",
-        "title": "The Strategy",
-        "subtitle": "We design a tailored AI plan,",
-        "description": "from chatbots to automation, aligned with your business needs."
+        "title": "Analysis & Diagnosis",
+        "subtitle": "What needs to be solved?",
+        "description": "We map your processes to determine what needs to be developed, automated, or driven by marketing."
       },
       {
         "number": "03",
-        "title": "Integration & Setup",
-        "subtitle": "Our team sets up your AI tools seamlessly",
-        "description": "no tech headaches, just smooth onboarding."
+        "title": "Tailor-Made Architecture",
+        "subtitle": "Zero copy-paste.",
+        "description": "We design the technical architecture (ERP, CRM, AI, or acquisition funnels) perfectly adapted to your operations."
       },
       {
         "number": "04",
-        "title": "Optimization & Scale",
-        "subtitle": "We monitor, refine, and scale your",
-        "description": "AI solutions as your business grows."
+        "title": "Development & Action",
+        "subtitle": "We code, film, and deploy.",
+        "description": "Our engineers build your tools and our teams launch your growth campaigns. We track the direct impact on your profitability."
       }
     ]
   },
   "humanoid": {
-    "chip": "We help businesses automate, scale, and grow with custom AI workflows built to make every process faster and smarter.",
-    "title": "Smarter Workflows. Less Effort.",
-    "badge": "The vision",
-    "card1": "We automate your workflow from leads to operations so your team can do more, faster.",
-    "card2": "AI chatbots that understand your business and deliver 24/7 human-like support.",
-    "card3": "Your next automation breakthrough.",
+    "chip": "We act as your Growth Partners. We eliminate operational bottlenecks and maximize your revenue through custom software and marketing architectures.",
+    "title": "Solving Operational Headaches. Driving Real Profitability.",
+    "badge1": "Operations & Processes",
+    "badge2": "Customer Relations 24/7",
+    "badge3": "Our Mission",
+    "card1": "From inventory management to logistics, we structure your operations so your teams can do more, faster.",
+    "card2": "Smart solutions to centralize your clients, track your finances, and automate your flows effortlessly.",
+    "card3": "Your next growth leverage.",
     "card3Accent": "starts here",
     "exploreServices": "Explore Our Services",
     "learnAbout": "Learn About Us"
@@ -62,7 +64,7 @@
   "partners": {
     "title": "Partners Who Believe in Us",
     "partner1": {
-      "title": "Automating real estate communication from phone to Telegram.",
+      "title": "Automating real estate communication from your phone to your favorite channels (WhatsApp, Telegram).",
       "description": "We built a custom Telegram bot that bridges the gap between Crypto-Immobilier's commercial and agent teams. Announcements shared through social media and phone are instantly relayed to available agents, who can update deal progress directly through the bot streamlining collaboration and response time.",
       "company": "Crypto-Immobilier",
       "subtitle": "Real Estate Company"
@@ -82,85 +84,70 @@
     "tagline": "Smarter. Faster. Automated."
   },
   "about": {
-    "intro1": "We're <highlight>Vexa AI</highlight> a group of passionate <highlight>Computer Science</highlight> students who believe that <highlight>technology</highlight> isn't just for big companies.",
-    "intro2": "We started Vexa with one clear goal: to help <highlight>businesses</highlight> of all sizes use AI to work smarter, faster, and better.",
-    "intro3": "Born from late-night coding sessions and <highlight>big ideas</highlight>, our team brings together <highlight>creativity</highlight>, problem-solving, and a drive to make automation accessible to <highlight>everyone</highlight>.",
-    "mission1": "To empower <highlight>businesses</highlight> through intelligent automation transforming <highlight>complex</highlight> manual tasks into seamless, efficient workflows powered by <highlight>AI</highlight>.",
-    "mission2": "We want to prove that <highlight>innovation</highlight> doesn't need a massive budget, just vision and the right tools.",
-    "story1": "Like many <highlight>startups</highlight>, Vexa AI began as a simple idea between friends in a <highlight>university</highlight> classroom.",
-    "story2": "We noticed that many <highlight>businesses</highlight> were wasting time on repetitive, manual work that could easily be <highlight>automated</highlight>.",
-    "story3": "So, we decided to use what we were learning coding, data, and AI to build real-world <highlight>solutions</highlight>.",
-    "ctaHeading": "Ready to Transform Your Business?",
-    "ctaSubtext": "Let's discuss how AI automation can streamline your operations and boost productivity.",
-    "ctaButton": "Get Started Today"
+    "intro1": "<highlight>VexaAI</highlight> was born from the synergy between future engineers from ESI and USTHB, united by a common vision: to bring technical excellence to <highlight>businesses</highlight> in Algeria.",
+    "intro2": "We design tailor-made software and AI architectures to structure and <highlight>scale the operations</highlight> of SMEs and large enterprises.",
+    "intro3": "Our team combines <highlight>mathematical rigor</highlight> and cutting-edge engineering to turn your complex challenges into high-performance, value-generating systems.",
+    "mission1": "Propel the growth of market leaders by integrating <highlight>artificial intelligence</highlight> at the core of their operational processes.",
+    "mission2": "We believe in a pragmatic innovation that generates <highlight>measurable ROI</highlight> from the very first days of deployment.",
+    "story1": "The VexaAI adventure began within the university laboratories of <highlight>ESI</highlight> and <highlight>USTHB</highlight>.",
+    "story2": "Faced with the operational inefficiencies of local businesses, we decided to create <highlight>tailor-made solutions</highlight>.",
+    "story3": "By combining custom development and artificial intelligence, we shape the <highlight>digital future</highlight> of the B2B ecosystem.",
+    "ctaHeading": "Ready to Structure and Scale Your Business?",
+    "ctaSubtext": "Let's discuss how custom software and strategic operational modeling can propel your operations.",
+    "ctaButton": "Get Started Today",
+    "whoAreWeAlt": "Who We Are",
+    "ourMissionAlt": "Our Mission",
+    "ourStoryAlt": "Our Story"
   },
   "services": {
-    "mainTitle": "Our Intelligent Automation Solutions",
-    "mainSubtitle": "Complete solutions to automate all your business processes",
+    "mainTitle": "Our Areas of Expertise",
+    "mainSubtitle": "We design custom software, integrate AI agents, and propel your customer acquisition.",
     "cards": [
       {
-        "title": "Intelligent Email Management",
-        "description": "Automate sorting, responses, and follow-up of all your emails effortlessly",
+        "title": "AI Agents & Information Flow Management",
+        "description": "Deployment of AI agents capable of understanding, sorting, and automatically responding to your incoming communication flows.",
         "features": [
-          "Automatic sorting and classification",
-          "Predefined and personalized responses",
-          "Automated follow-ups and reminders"
+          "Automatic sorting and classification of flows",
+          "Personalized responses by generative AI",
+          "Automated follow-ups and routing"
         ]
       },
       {
-        "title": "Automated CRM & Customer Tracking",
-        "description": "Centralize your customer interactions and automate CRM for greater efficiency",
+        "title": "Custom CRM & ERP Architectures",
+        "description": "Design of databases and customer tracking tools adapted to your sales process, without fluff.",
         "features": [
-          "Complete interaction history",
-          "Intelligent contact segmentation",
-          "Automatic reminders for each opportunity"
+          "Custom data modeling and pipelines",
+          "Dashboards and key performance indicators (KPIs)",
+          "Unified customer profiles and opportunity tracking"
         ]
       },
       {
-        "title": "Lead Acquisition & Qualification",
-        "description": "Generate, qualify, and track your prospects automatically",
-        "features": [
-          "Intelligent lead capture forms",
-          "Automatic prospect scoring",
-          "Real-time alerts for your sales team"
-        ]
-      },
-      {
-        "title": "Automatic Appointment Scheduling",
-        "description": "Organize and manage your appointments without manual intervention",
-        "features": [
-          "Intelligent synchronized calendar",
-          "Automated confirmation and email reminders",
-          "Simplified cancellation and rescheduling management"
-        ]
-      },
-      {
-        "title": "Automated Accounting & Invoicing",
-        "description": "Manage your invoices, payments, and financial tracking effortlessly",
+        "title": "Invoicing & Financial Flow Automation",
+        "description": "Automatic invoice generation, customer payment tracking, and simplified financial reconciliation.",
         "features": [
           "Automatic invoice creation and sending",
-          "Automated payment management",
-          "Real-time bank synchronization"
+          "Scheduled payment reminders and follow-ups",
+          "Automated reconciliation and cash flow reporting"
         ]
       },
       {
-        "title": "Automated Social Media Management",
-        "description": "Plan, publish, and analyze your content without manual effort",
+        "title": "Acquisition Systems & Sales Tunnels",
+        "description": "Implementation of targeted advertising campaigns and automated acquisition funnels to convert your audience into qualified leads.",
         "features": [
-          "Automatic post scheduling",
-          "Automated responses and interactions",
-          "Performance analysis and reporting"
+          "Precise targeting and multi-channel acquisition",
+          "Smart forms and automatic lead qualification",
+          "Acquisition cost tracking and reporting"
         ]
       }
     ],
-    "ctaHeading": "Thank You for Exploring Our Services",
-    "ctaSubtext": "We appreciate your interest in our AI automation solutions. Ready to see how we can help transform your business?",
+    "ctaHeading": "Ready to Structure and Scale Your Business?",
+    "ctaSubtext": "Don't let operational disorder slow down your growth. Let's start with a process audit to identify your leverage points.",
     "aboutUs": "About Us",
-    "contactUs": "Contact Us"
+    "contactUs": "Book my Strategic Audit (15 min)"
   },
   "values": {
     "title": "Our Areas of Impact",
-    "ctaText": "Start Your Journey with Us",
+    "ctaText": "We design logical systems to solve your real business pain points.",
     "ctaButton": "Contact Us",
     "problemLabel": "Problem:",
     "solutionLabel": "Our Solution:",
@@ -168,7 +155,7 @@
       {
         "title": "Education & Training",
         "problem": "Schools and training centers waste time on repetitive admin work like registrations, follow-ups, and tracking progress.",
-        "solution": "We build smart automation systems that handle registrations, send reminders, track student data, and even manage communication automatically freeing educators to focus on teaching."
+        "solution": "We develop internal management software coupled with WhatsApp AI. The system tracks payments and automatically sends customized reminders to parents in case of delay, freeing up your administrative teams."
       },
       {
         "title": "Hotels & Travel Agencies",
@@ -198,32 +185,32 @@
     ]
   },
   "contact": {
-    "meetingTitle": "Book a Meeting with Vexa AI",
-    "meetingDescription": "Let's talk about how Vexa AI can help you transform your workflow. Book a free discovery call and let's explore how automation can boost efficiency, and unlock new growth opportunities for your brand.",
-    "aboutTitle": "What This Meeting Is About",
-    "aboutSubtitle": "This isn't a sales call it's a strategy session.",
-    "aboutDescription": "We'll dive into your business, understand your goals, and show you how AI can transform your operations.",
-    "callDuration": "During our 20-30 minute call, we will:",
+    "meetingTitle": "Request your Free Operational Audit (15 min)",
+    "meetingDescription": "This is not a sales call: it's a strategic session. No technical jargon, no pressure. Just concrete solutions to your business bottlenecks.",
+    "aboutTitle": "What we'll cover during this audit",
+    "aboutSubtitle": "This is not a sales call: it's a strategic session.",
+    "aboutDescription": "We analyze your operational model to design high-impact technological and acquisition solutions.",
+    "callDuration": "During our 15-minute exchange, we will cover:",
     "meetingPoints": [
       {
-        "bold": "Understand your business",
-        "text": " - what you do, who you serve, and what makes you unique"
+        "bold": "Operational diagnosis:",
+        "text": " We analyze your current flows to identify the bottlenecks that are costing you money."
       },
       {
-        "bold": "Identify what can be automated",
-        "text": " - repetitive tasks or bottlenecks in your workflow"
+        "bold": "Tailor-made technical legacy:",
+        "text": " We explore whether you need dedicated software (ERP/CRM) or a simple intelligent automation block to free up your teams."
       },
       {
-        "bold": "Share tailored automation ideas",
-        "text": " aligned with your goals and tools"
+        "bold": "Acquisition strategy:",
+        "text": " We evaluate how digital marketing and filmmaking can boost your sales."
       },
       {
-        "bold": "Plan the next steps",
-        "text": " - from a free concept to a full automation roadmap"
+        "bold": "Zero commitment:",
+        "text": " You walk away with concrete ideas. Free to implement them alone, or let us do it for you."
       }
     ],
-    "formHeader": "To get in touch and keep communication smooth, we'll need a few basic details.",
-    "formDivider1": "Tell us a bit about your business this helps us understand where automation can make the biggest impact.",
+    "formHeader": "Schedule your session in a few seconds:",
+    "formDivider1": "Tell us a bit about your business. This helps us understand where custom development and operational structuring can make the biggest impact.",
     "formDivider2": "We'd like to know what brings you here today.",
     "placeholders": {
       "name": "Name",

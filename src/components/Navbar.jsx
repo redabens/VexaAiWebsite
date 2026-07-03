@@ -2,7 +2,13 @@ import './Navbar.css'
 import { Link, useLocation } from 'react-router-dom'
 import { memo, useState } from 'react'
 import AnimatedLogo from './AnimatedLogo'
-import { useLanguage, languages } from '../i18n/LanguageContext'
+import { useLanguage } from '../i18n/LanguageContext'
+
+const languages = [
+  { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'ar', name: 'العربية', flag: '🇸🇦' }
+]
 
 const Navbar = memo(function Navbar() {
   const location = useLocation()

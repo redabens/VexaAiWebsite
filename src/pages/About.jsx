@@ -57,7 +57,7 @@ function About() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <img src="/aboutUsPics/whoarewe.png" alt="Who Are We" className="hero-image" loading="eager" />
+          <img src="/aboutUsPics/whoarewe.png" alt={t('about.whoAreWeAlt')} className="hero-image" loading="eager" />
         </motion.div>
 
         <div className="about-content">
@@ -95,7 +95,7 @@ function About() {
           <div className="mission-card">
             <motion.img
               src="/aboutUsPics/ourmission.png"
-              alt="Our Mission"
+              alt={t('about.ourMissionAlt')}
               className="section-image"
               loading="lazy"
               initial={{ opacity: 0, x: isRTL ? 50 : -50 }}
@@ -139,7 +139,7 @@ function About() {
             </motion.div>
             <motion.img
               src="/aboutUsPics/ourstory.png"
-              alt="Our Story"
+              alt={t('about.ourStoryAlt')}
               className="section-image"
               loading="lazy"
               initial={{ opacity: 0, x: isRTL ? -50 : 50 }}

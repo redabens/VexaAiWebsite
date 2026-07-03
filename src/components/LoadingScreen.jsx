@@ -1,6 +1,5 @@
 import { motion } from 'motion/react'
 import './LoadingScreen.css'
-import loadingSvg from '../assets/loading.svg'
 
 function LoadingScreen({ isLoading }) {
   return (
