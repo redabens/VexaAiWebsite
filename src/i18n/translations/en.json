@@ -6,19 +6,19 @@
     "contact": "Contact Us"
   },
   "hero": {
-    "title": "Custom Software Engineering &",
-    "titleLine2": "Smart Systems to Solve Your Real Business Bottlenecks.",
-    "subtitle": "From inventory management to structuring your sales pipeline,",
-    "subtitleLine2": "we design robust, customized systems to maximize your profitability.",
-    "getStarted": "GET STARTED",
+    "title": "We solve business problems first.",
+    "titleLine2": "We code and film later.",
+    "subtitle": "VexaAi is your Growth Partner. We audit your operational bottlenecks",
+    "subtitleLine2": "to design your custom software, intelligent automations, and acquisition strategies.",
+    "getStarted": "REQUEST AN AUDIT",
     "areas": "Areas",
     "tagline1": "Reimagine what's possible.",
     "tagline2": "Redefine how you work.",
-    "tagline3": "Intelligent systems designed to structure, automate, and scale your business operations."
+    "tagline3": "Tailor-made systems designed to eliminate friction and maximize your profitability."
   },
   "process": {
-    "tagline": "Focus on your growth. We solve your operational headaches.",
-    "title": "The Vexa Process: We solve first, we code later",
+    "tagline": "A structured approach to eliminate your operational friction.",
+    "title": "The Vexa Methodology: From Audit to Impact",
     "ctaTitle": "Now Let's Make It Work For You.",
     "ctaButton": "Reserve Your Spot Today",
     "steps": [

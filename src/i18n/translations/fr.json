@@ -6,19 +6,19 @@
     "contact": "Contactez-nous"
   },
   "hero": {
-    "title": "L'Ingénierie Logicielle et",
-    "titleLine2": "l'IA Sur-Mesure pour Résoudre vos Problèmes Business.",
-    "subtitle": "De la gestion de vos stocks à la structuration de vos ventes,",
-    "subtitleLine2": "nous concevons des systèmes robustes et personnalisés pour maximiser votre rentabilité.",
-    "getStarted": "COMMENCER",
+    "title": "Nous résolvons vos problèmes business d'abord.",
+    "titleLine2": "Nous codons et filmons ensuite.",
+    "subtitle": "VexaAi est votre Growth Partner. Nous auditons vos goulots d'étranglement opérationnels",
+    "subtitleLine2": "pour concevoir vos logiciels sur-mesure, vos automatisations intelligentes et vos stratégies d'acquisition.",
+    "getStarted": "DEMANDER UN AUDIT",
     "areas": "Domaines",
     "tagline1": "Réimaginez ce qui est possible.",
     "tagline2": "Redéfinissez votre façon de travailler.",
-    "tagline3": "Des systèmes intelligents conçus pour structurer, automatiser et propulser vos opérations."
+    "tagline3": "Des systèmes sur-mesure conçus pour éliminer vos frictions et maximiser votre rentabilité."
   },
   "process": {
-    "tagline": "Concentrez-vous sur votre croissance. Nous résolvons vos blocages opérationnels.",
-    "title": "La Méthodologie Vexa : On résout d'abord, on code ensuite",
+    "tagline": "Une démarche structurée pour éliminer vos frictions.",
+    "title": "La Méthodologie Vexa : De l'Audit à l'Impact",
     "ctaTitle": "Maintenant, Faisons-le Fonctionner Pour Vous.",
     "ctaButton": "Réservez Votre Place Aujourd'hui",
     "steps": [

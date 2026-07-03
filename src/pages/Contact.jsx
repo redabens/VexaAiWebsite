@@ -60,7 +60,7 @@ function Contact() {
         window.Cal("init", { origin: "https://cal.com" });
         window.Cal("inline", {
           elementOrSelector: "#cal-booking-widget",
-          calLink: "https://cal.com/vexaai/15min",
+          calLink: "vexaai/15min",
           config: { 
             layout: "month_view",
             theme: "light"
